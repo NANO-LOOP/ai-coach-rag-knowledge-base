@@ -1,0 +1,506 @@
+{
+  "root_url": "https://ni4nrbhniif.feishu.cn/wiki/RqDGw7Oo8irVhQkoG5jcUlnSnlb",
+  "captured_at": "2026-10-14T06:30:10.117659+00:00",
+  "nodes": [
+    {
+      "creator": "ou_9feefe3c43ecd2b7297d47d8e018ee8c",
+      "has_child": true,
+      "node_create_time": "1790666584",
+      "node_token": "RqDGw7Oo8irVhQkoG5jcUlnSnlb",
+      "node_type": "origin",
+      "obj_create_time": "1790666584",
+      "obj_edit_time": "1791957739",
+      "obj_token": "B49JdM3BRoijG9xM1ckcGXKinDh",
+      "obj_type": "docx",
+      "origin_node_token": "RqDGw7Oo8irVhQkoG5jcUlnSnlb",
+      "owner": "ou_9feefe3c43ecd2b7297d47d8e018ee8c",
+      "parent_node_token": "SfRqwkVFHiuGkokg5oFcKF0JnDb",
+      "space_id": "7423399367861796892",
+      "title": "RAG库知识储备",
+      "updated_at": "2026-10-14T06:02:19Z",
+      "title_path": [
+        "RAG库知识储备"
+      ]
+    },
+    {
+      "has_child": true,
+      "node_token": "PSYMwwzzMiNdqYkQtdAce8Jmn0d",
+      "node_type": "origin",
+      "obj_token": "VfUodLddbomQiUxGfpVcMQqOnce",
+      "obj_type": "docx",
+      "parent_node_token": "RqDGw7Oo8irVhQkoG5jcUlnSnlb",
+      "space_id": "7423399367861796892",
+      "title": "产品架构与规则",
+      "title_path": [
+        "RAG库知识储备",
+        "产品架构与规则"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "TI6EwvFnSirKfJksw5tcJhiknpb",
+      "node_type": "origin",
+      "obj_token": "QJxLdi6yTo1iGMxdZS3cH9rRnbg",
+      "obj_type": "docx",
+      "parent_node_token": "PSYMwwzzMiNdqYkQtdAce8Jmn0d",
+      "space_id": "7423399367861796892",
+      "title": "产品改进建议｜待产品确认",
+      "title_path": [
+        "RAG库知识储备",
+        "产品架构与规则",
+        "产品改进建议｜待产品确认"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "WAo8wUHTRiBNOnk7l68c1bdxn3g",
+      "node_type": "shortcut",
+      "obj_token": "VQikdrOlloGN9TxUKEqcRVn2nLe",
+      "obj_type": "docx",
+      "parent_node_token": "PSYMwwzzMiNdqYkQtdAce8Jmn0d",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova T0 AI Coach 架构设计｜工程精简版｜v1.3",
+      "title_path": [
+        "RAG库知识储备",
+        "产品架构与规则",
+        "Nuromova T0 AI Coach 架构设计｜工程精简版｜v1.3"
+      ]
+    },
+    {
+      "has_child": true,
+      "node_token": "I6pgwoWiUivAG4k0Concgp2dnse",
+      "node_type": "origin",
+      "obj_token": "VhIkduOKKoIV4Gx4DC1cdxhUn0d",
+      "obj_type": "docx",
+      "parent_node_token": "RqDGw7Oo8irVhQkoG5jcUlnSnlb",
+      "space_id": "7423399367861796892",
+      "title": "管理与研发交付",
+      "title_path": [
+        "RAG库知识储备",
+        "管理与研发交付"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "PdGgwVzgziTpo7keALicGIQUnvQ",
+      "node_type": "origin",
+      "obj_token": "EeamdQXLkoQbCwxvwWEcbTRbnQd",
+      "obj_type": "docx",
+      "parent_node_token": "I6pgwoWiUivAG4k0Concgp2dnse",
+      "space_id": "7423399367861796892",
+      "title": "知识索引与审阅进度",
+      "title_path": [
+        "RAG库知识储备",
+        "管理与研发交付",
+        "知识索引与审阅进度"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "Hunlw09biivd6Wkh0xccZLPgnCd",
+      "node_type": "origin",
+      "obj_token": "NXmYdfnbtoNQvoxWygHcjtQ2n2c",
+      "obj_type": "docx",
+      "parent_node_token": "I6pgwoWiUivAG4k0Concgp2dnse",
+      "space_id": "7423399367861796892",
+      "title": "待确认修改与争议",
+      "title_path": [
+        "RAG库知识储备",
+        "管理与研发交付",
+        "待确认修改与争议"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "F19CwrvphisJmIkWuzQcDXWqnae",
+      "node_type": "origin",
+      "obj_token": "JKhjddwbGonVXTxDadRcZdPnnsh",
+      "obj_type": "docx",
+      "parent_node_token": "I6pgwoWiUivAG4k0Concgp2dnse",
+      "space_id": "7423399367861796892",
+      "title": "版本与变更记录",
+      "title_path": [
+        "RAG库知识储备",
+        "管理与研发交付",
+        "版本与变更记录"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "E2NdwIlVTiCET9k7RjOchXEhnAb",
+      "node_type": "origin",
+      "obj_token": "V77XdLpjNokzxSxwR6FcWOLonDg",
+      "obj_type": "docx",
+      "parent_node_token": "I6pgwoWiUivAG4k0Concgp2dnse",
+      "space_id": "7423399367861796892",
+      "title": "数据结构与研发交接说明",
+      "title_path": [
+        "RAG库知识储备",
+        "管理与研发交付",
+        "数据结构与研发交接说明"
+      ]
+    },
+    {
+      "has_child": true,
+      "node_token": "NqrMwCyy4i2pwnk5lPSc3coVnlb",
+      "node_type": "origin",
+      "obj_token": "TwZVdwG1coh2jcxgLMbcgwCtngc",
+      "obj_type": "docx",
+      "parent_node_token": "RqDGw7Oo8irVhQkoG5jcUlnSnlb",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜专题文章知识库",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库"
+      ]
+    },
+    {
+      "has_child": true,
+      "node_token": "RmIvwd19IiPUI4kTrJScmO6FnTe",
+      "node_type": "origin",
+      "obj_token": "X284d7lquo4wqkxrahCcIa5tnbb",
+      "obj_type": "docx",
+      "parent_node_token": "NqrMwCyy4i2pwnk5lPSc3coVnlb",
+      "space_id": "7423399367861796892",
+      "title": "运动",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "运动"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "CB5lwOcFAiIhIikfq8ucFqULn5b",
+      "node_type": "origin",
+      "obj_token": "XT1YdkhHPoCQyFx1HircPJEtnie",
+      "obj_type": "docx",
+      "parent_node_token": "RmIvwd19IiPUI4kTrJScmO6FnTe",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜HYROX 专项知识",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "运动",
+        "Nuromova AI Coach｜HYROX 专项知识"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "LUAHw6fNAiIUWtkAfbGcXoqrnCh",
+      "node_type": "origin",
+      "obj_token": "EA9TdtPX5oumy3xT5cUc0kHznOT",
+      "obj_type": "docx",
+      "parent_node_token": "RmIvwd19IiPUI4kTrJScmO6FnTe",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜羽毛球专项知识",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "运动",
+        "Nuromova AI Coach｜羽毛球专项知识"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "L6mbwxM3YiulzhkNGnqcRRm9nqU",
+      "node_type": "origin",
+      "obj_token": "IoVYdKD2qoJzhLxaUZWcz0CtnHh",
+      "obj_type": "docx",
+      "parent_node_token": "RmIvwd19IiPUI4kTrJScmO6FnTe",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜骑行专项知识",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "运动",
+        "Nuromova AI Coach｜骑行专项知识"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "YjSfwsjTOib4QTkBs9CccCoRntf",
+      "node_type": "origin",
+      "obj_token": "VWGydBdWgomU5txxzd0cRU1Znod",
+      "obj_type": "docx",
+      "parent_node_token": "RmIvwd19IiPUI4kTrJScmO6FnTe",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜射击专项知识",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "运动",
+        "Nuromova AI Coach｜射击专项知识"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "NAz4w0ZZbir28ykcqwfcfECDnGc",
+      "node_type": "origin",
+      "obj_token": "MT5ud5ww2oTLGvxuWmUcgzwsnuh",
+      "obj_type": "docx",
+      "parent_node_token": "RmIvwd19IiPUI4kTrJScmO6FnTe",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜跑步专项知识",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "运动",
+        "Nuromova AI Coach｜跑步专项知识"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "IzR0wkN1Ai9z8XkyrmKc3XiUn5e",
+      "node_type": "origin",
+      "obj_token": "UdyydFBAUoDicIxMUeKcisaJnC5",
+      "obj_type": "docx",
+      "parent_node_token": "RmIvwd19IiPUI4kTrJScmO6FnTe",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜田径专项知识",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "运动",
+        "Nuromova AI Coach｜田径专项知识"
+      ]
+    },
+    {
+      "has_child": true,
+      "node_token": "ZRslwePs9ixkmYkSfeacD7QAnhd",
+      "node_type": "origin",
+      "obj_token": "CpjjdvyDOo0KYOx5OWscX4ijnbd",
+      "obj_type": "docx",
+      "parent_node_token": "NqrMwCyy4i2pwnk5lPSc3coVnlb",
+      "space_id": "7423399367861796892",
+      "title": "饮食",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "饮食"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "LdsDwCDHFipP9Lk2HChcCy3Fn5c",
+      "node_type": "origin",
+      "obj_token": "VYhmdYC3zoZCQ2xUWAFcNvabnHh",
+      "obj_type": "docx",
+      "parent_node_token": "ZRslwePs9ixkmYkSfeacD7QAnhd",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜能量可用性与日常营养",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "饮食",
+        "Nuromova AI Coach｜能量可用性与日常营养"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "N2OuwScxYi0gqokbXZCcAqJQnKf",
+      "node_type": "origin",
+      "obj_token": "LXmgd84dNokfZ8xBiPEcJaODnme",
+      "obj_type": "docx",
+      "parent_node_token": "ZRslwePs9ixkmYkSfeacD7QAnhd",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜训练前、中与胃肠耐受",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "饮食",
+        "Nuromova AI Coach｜训练前、中与胃肠耐受"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "QTGTwSH7LiFECxkXvalcxAXjnwf",
+      "node_type": "origin",
+      "obj_token": "BRbVdvsVRoIaa5xjtjcc9zkdnXg",
+      "obj_type": "docx",
+      "parent_node_token": "ZRslwePs9ixkmYkSfeacD7QAnhd",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜恢复、蛋白质与补水电解质",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "饮食",
+        "Nuromova AI Coach｜恢复、蛋白质与补水电解质"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "WqYNw7s7IircrzkAID9cKtuEn4e",
+      "node_type": "origin",
+      "obj_token": "LAmMdQGnDoe6JhxHrP8cY0fonQh",
+      "obj_type": "docx",
+      "parent_node_token": "ZRslwePs9ixkmYkSfeacD7QAnhd",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜特殊饮食、补剂与记录边界",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "饮食",
+        "Nuromova AI Coach｜特殊饮食、补剂与记录边界"
+      ]
+    },
+    {
+      "has_child": true,
+      "node_token": "OLbVwMxcgiVdobkrL7hcJWuPnCb",
+      "node_type": "origin",
+      "obj_token": "HVZKdi2CNozufxxe45bcFTY7nfe",
+      "obj_type": "docx",
+      "parent_node_token": "NqrMwCyy4i2pwnk5lPSc3coVnlb",
+      "space_id": "7423399367861796892",
+      "title": "心态与恢复",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "心态与恢复"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "FqCuwfjHriKfrBkmec4cVkAXnXd",
+      "node_type": "origin",
+      "obj_token": "Dia5dUMOPooFPOxYwXtcxUhYnaf",
+      "obj_type": "docx",
+      "parent_node_token": "OLbVwMxcgiVdobkrL7hcJWuPnCb",
+      "space_id": "7423399367861796892",
+      "title": "睡眠受限时的羽毛球运动前决策｜从状态输入到专项调整",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "心态与恢复",
+        "睡眠受限时的羽毛球运动前决策｜从状态输入到专项调整"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "NNiYwV00EiyOITkDILLccbtgnJf",
+      "node_type": "origin",
+      "obj_token": "QtpVdpWisotGx0xsE2fcYyDunQb",
+      "obj_type": "docx",
+      "parent_node_token": "OLbVwMxcgiVdobkrL7hcJWuPnCb",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜疲劳与恢复",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "心态与恢复",
+        "Nuromova AI Coach｜疲劳与恢复"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "HM17w8qqti8sxwkKuaCcY3mqn1g",
+      "node_type": "origin",
+      "obj_token": "QouCdt0FiotDpwxQtpacYTXunqf",
+      "obj_type": "docx",
+      "parent_node_token": "OLbVwMxcgiVdobkrL7hcJWuPnCb",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜睡眠与节律",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "心态与恢复",
+        "Nuromova AI Coach｜睡眠与节律"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "Ga6jwVwIyiRLbqkx64PcrVEVnEo",
+      "node_type": "origin",
+      "obj_token": "CPcgdcI1WoqaDAx2hT9cRYaPnwc",
+      "obj_type": "docx",
+      "parent_node_token": "OLbVwMxcgiVdobkrL7hcJWuPnCb",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜心理压力、精力与注意",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "心态与恢复",
+        "Nuromova AI Coach｜心理压力、精力与注意"
+      ]
+    },
+    {
+      "has_child": true,
+      "node_token": "WfHFwIztxicEKLkZxStczXeInWb",
+      "node_type": "origin",
+      "obj_token": "To0rdSIujoyDH7xZiV7cPbgmnze",
+      "obj_type": "docx",
+      "parent_node_token": "NqrMwCyy4i2pwnk5lPSc3coVnlb",
+      "space_id": "7423399367861796892",
+      "title": "通用基础",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "通用基础"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "SJxQwBBSxi28WwkYnWRck8Vhnkh",
+      "node_type": "origin",
+      "obj_token": "R5HCdNHZqoeolAx86WScbJiOnSd",
+      "obj_type": "docx",
+      "parent_node_token": "WfHFwIztxicEKLkZxStczXeInWb",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜训练生理与能力发展",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "通用基础",
+        "Nuromova AI Coach｜训练生理与能力发展"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "NvCzwg7M8imy2mkqCqVcZnL1nld",
+      "node_type": "origin",
+      "obj_token": "XjFhdIm0fo6L9jxBgEEcy5Ufnoe",
+      "obj_type": "docx",
+      "parent_node_token": "WfHFwIztxicEKLkZxStczXeInWb",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜强度、负荷与训练反馈",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "通用基础",
+        "Nuromova AI Coach｜强度、负荷与训练反馈"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "Vi8twWtpLiEQAbkIvB9cbExlnId",
+      "node_type": "origin",
+      "obj_token": "THmcdizqCo3fDzxv67NcJ2M5nnb",
+      "obj_type": "docx",
+      "parent_node_token": "WfHFwIztxicEKLkZxStczXeInWb",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜动作学习、准备与健康边界",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "通用基础",
+        "Nuromova AI Coach｜动作学习、准备与健康边界"
+      ]
+    },
+    {
+      "has_child": false,
+      "node_token": "JFojwqtbuifk1nkO6x7cSmZAn0e",
+      "node_type": "origin",
+      "obj_token": "KpuhddtzCo5FkIxfDyHcPVwUnbf",
+      "obj_type": "docx",
+      "parent_node_token": "WfHFwIztxicEKLkZxStczXeInWb",
+      "space_id": "7423399367861796892",
+      "title": "Nuromova AI Coach｜测量、可比性与证据记录",
+      "title_path": [
+        "RAG库知识储备",
+        "Nuromova AI Coach｜专题文章知识库",
+        "通用基础",
+        "Nuromova AI Coach｜测量、可比性与证据记录"
+      ]
+    }
+  ]
+}

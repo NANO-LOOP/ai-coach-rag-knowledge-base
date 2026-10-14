@@ -1,0 +1,489 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "fixture": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "synthetic": {
+          "const": true
+        },
+        "scenario": {
+          "type": "string",
+          "minLength": 1
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "parent_input_hash": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "synthetic",
+        "scenario",
+        "seed",
+        "parent_input_hash"
+      ],
+      "additionalProperties": false
+    },
+    "evidence_packet": {
+      "type": "object",
+      "properties": {
+        "identity": {
+          "type": "object",
+          "properties": {
+            "user_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "event_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "wear_cycle_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "user_id",
+            "event_id",
+            "wear_cycle_id"
+          ],
+          "additionalProperties": false
+        },
+        "role": {
+          "enum": [
+            "pre",
+            "post"
+          ]
+        },
+        "as_of": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "event": {
+          "type": "object",
+          "properties": {
+            "sport": {
+              "type": "string",
+              "minLength": 1
+            },
+            "goal": {
+              "type": "string",
+              "minLength": 1
+            },
+            "start_at": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date-time"
+            },
+            "end_at": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date-time"
+            },
+            "processing_state": {
+              "enum": [
+                "planned",
+                "pending",
+                "ready",
+                "unavailable"
+              ]
+            }
+          },
+          "required": [
+            "sport",
+            "goal",
+            "start_at",
+            "end_at",
+            "processing_state"
+          ],
+          "additionalProperties": false
+        },
+        "facts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "user_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "event_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "kind": {
+                "enum": [
+                  "state",
+                  "profile",
+                  "performance",
+                  "questionnaire",
+                  "marker",
+                  "background",
+                  "history",
+                  "dialogue"
+                ]
+              },
+              "key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "value": {},
+              "unit": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source": {
+                "enum": [
+                  "algorithm",
+                  "user",
+                  "questionnaire",
+                  "note",
+                  "blink",
+                  "history",
+                  "profile",
+                  "device"
+                ]
+              },
+              "status": {
+                "enum": [
+                  "valid",
+                  "missing",
+                  "skipped",
+                  "invalidated"
+                ]
+              },
+              "observed_at": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date-time"
+              },
+              "recorded_at": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date-time"
+              },
+              "valid_until": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date-time"
+              },
+              "time_label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "user_id",
+              "event_id",
+              "kind",
+              "key",
+              "value",
+              "unit",
+              "source",
+              "status",
+              "observed_at",
+              "recorded_at",
+              "valid_until",
+              "time_label"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "calculations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "value": {
+                "type": "number"
+              },
+              "unit": {
+                "type": "string",
+                "minLength": 1
+              },
+              "rule_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "rule_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "input_fact_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "review_status": {
+                "enum": [
+                  "approved",
+                  "pending"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "value",
+              "unit",
+              "rule_id",
+              "rule_version",
+              "input_fact_ids",
+              "review_status"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "rules": {
+          "type": "object",
+          "properties": {
+            "device_qualified": {
+              "type": "boolean"
+            },
+            "remaining_questions": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "button_color": {
+              "enum": [
+                "green",
+                "yellow",
+                "red",
+                "blue",
+                null
+              ]
+            }
+          },
+          "required": [
+            "device_qualified",
+            "remaining_questions",
+            "button_color"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "identity",
+        "role",
+        "as_of",
+        "event",
+        "facts",
+        "calculations",
+        "rules"
+      ],
+      "additionalProperties": false
+    },
+    "replay": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "minLength": 1
+          },
+          "as_of": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fact_delta": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "user_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "event_id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "kind": {
+                  "enum": [
+                    "state",
+                    "profile",
+                    "performance",
+                    "questionnaire",
+                    "marker",
+                    "background",
+                    "history",
+                    "dialogue"
+                  ]
+                },
+                "key": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {},
+                "unit": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "source": {
+                  "enum": [
+                    "algorithm",
+                    "user",
+                    "questionnaire",
+                    "note",
+                    "blink",
+                    "history",
+                    "profile",
+                    "device"
+                  ]
+                },
+                "status": {
+                  "enum": [
+                    "valid",
+                    "missing",
+                    "skipped",
+                    "invalidated"
+                  ]
+                },
+                "observed_at": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "format": "date-time"
+                },
+                "recorded_at": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "format": "date-time"
+                },
+                "valid_until": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "format": "date-time"
+                },
+                "time_label": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "user_id",
+                "event_id",
+                "kind",
+                "key",
+                "value",
+                "unit",
+                "source",
+                "status",
+                "observed_at",
+                "recorded_at",
+                "valid_until",
+                "time_label"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "invalidate_fact_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "message",
+          "as_of",
+          "fact_delta",
+          "invalidate_fact_ids"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "review_only": {
+      "type": "object",
+      "properties": {
+        "topic": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "topic",
+        "notes"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "fixture",
+    "evidence_packet",
+    "replay",
+    "review_only"
+  ],
+  "additionalProperties": false
+}

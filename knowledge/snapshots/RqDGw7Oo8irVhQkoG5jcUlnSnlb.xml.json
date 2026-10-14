@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title id=\"B49JdM3BRoijG9xM1ckcGXKinDh\">RAG库知识储备</title><p id=\"doxcnAkAAPez9CBmmDEOzIzvGve\">管理版本：2.0.0｜2026-09-29</p><p id=\"doxcnbLRvOxTW9mBrguF7e96UFb\">这里是 Nuromova 内部运动专家维护知识、研发接收知识资产的统一入口。专家可从案例进入讨论，Agent 负责检索、整理和分类；专家确认具体修改稿后写入并核验。</p><h1 id=\"doxcnSCZR1U93RTyGbnJR5dosTy\" seq=\"auto\" seq-marker=\"1.\">按任务进入</h1><p id=\"doxcn3zRbVBGWGfB7WtwUOf6ETd\"><a href=\"https://ni4nrbhniif.feishu.cn/wiki/NqrMwCyy4i2pwnk5lPSc3coVnlb\">专题文章知识库</a>：运动、饮食、心态与恢复、通用基础的完整文章。</p><p id=\"doxcn0cbFLC5h6kWxexgAqhu5ah\"><a href=\"https://ni4nrbhniif.feishu.cn/wiki/PSYMwwzzMiNdqYkQtdAce8Jmn0d\">产品架构与规则：产品边界与改进候选</a></p><p id=\"doxcnkiYSh74QrmOkgG0nkmxtEf\"><a href=\"https://ni4nrbhniif.feishu.cn/wiki/Eu8DwX2upiRfV7kpSqVcZ90Xn9c\">案例与反例库：示例、条件变化与专家复验</a></p><p id=\"doxcnUx9My1n06L2WprifVlg1bb\"><a href=\"https://ni4nrbhniif.feishu.cn/wiki/I6pgwoWiUivAG4k0Concgp2dnse\">管理与研发交付：索引、审阅、版本与导出</a></p><h1 id=\"doxcngTbzmMhSrjZQv30ooXP8gg\" seq=\"auto\" seq-marker=\"2.\">专家怎么用</h1><p id=\"doxcnLgGGFCnJTLly9za5RD9nKf\">在 Codex 使用 nuromova-expert-coach，说“开始聊一个案例”即可。默认看简短案例和主要建议，顺着自己的专业判断聊天；想看细节时再展开。无需填表或逐项选择引用。</p><p id=\"doxcnR2vtWIspKt00Kiyby4bKJd\">Agent 会主动建议阶段整理；你可以继续聊、换题、暂存或确认。确认某份修改稿后即可写入，不需要第二位负责人审批；日常讨论不会自动发布。</p><h1 id=\"doxcn1oSKal6cLLtCCW2LOxBygg\" seq=\"auto\" seq-marker=\"3.\">研发怎么用</h1><p id=\"doxcn9AJdA26wB5vodMPK9ZdlTd\">从管理区取得文章正文、文档版本索引和知识单元 JSONL。专业知识、产品规则、案例与争议分开标记；历史文章尚未逐点审阅，不能因为已有文档就默认具备上线资格。</p><p id=\"doxcn8GSMArGcCvfkH5OibipEZb\">架构及原案例册的原节点受移动权限限制，目录内以快捷方式引用同一原文，未复制正文。此入口不改变原文访问权限。</p><p id=\"PUwod24xcoFriLx9Q86cAl6dnkd\"></p>",
+      "document_id": "B49JdM3BRoijG9xM1ckcGXKinDh",
+      "revision_id": 4
+    }
+  }
+}

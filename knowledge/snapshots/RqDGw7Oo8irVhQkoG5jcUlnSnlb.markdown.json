@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title>RAG库知识储备</title>\n\n管理版本：2.0.0｜2026-09-29\n\n这里是 Nuromova 内部运动专家维护知识、研发接收知识资产的统一入口。专家可从案例进入讨论，Agent 负责检索、整理和分类；专家确认具体修改稿后写入并核验。\n\n# 按任务进入\n\n[专题文章知识库](https://ni4nrbhniif.feishu.cn/wiki/NqrMwCyy4i2pwnk5lPSc3coVnlb)：运动、饮食、心态与恢复、通用基础的完整文章。\n\n[产品架构与规则：产品边界与改进候选](https://ni4nrbhniif.feishu.cn/wiki/PSYMwwzzMiNdqYkQtdAce8Jmn0d)\n\n[案例与反例库：示例、条件变化与专家复验](https://ni4nrbhniif.feishu.cn/wiki/Eu8DwX2upiRfV7kpSqVcZ90Xn9c)\n\n[管理与研发交付：索引、审阅、版本与导出](https://ni4nrbhniif.feishu.cn/wiki/I6pgwoWiUivAG4k0Concgp2dnse)\n\n# 专家怎么用\n\n在 Codex 使用 nuromova-expert-coach，说“开始聊一个案例”即可。默认看简短案例和主要建议，顺着自己的专业判断聊天；想看细节时再展开。无需填表或逐项选择引用。\n\nAgent 会主动建议阶段整理；你可以继续聊、换题、暂存或确认。确认某份修改稿后即可写入，不需要第二位负责人审批；日常讨论不会自动发布。\n\n# 研发怎么用\n\n从管理区取得文章正文、文档版本索引和知识单元 JSONL。专业知识、产品规则、案例与争议分开标记；历史文章尚未逐点审阅，不能因为已有文档就默认具备上线资格。\n\n架构及原案例册的原节点受移动权限限制，目录内以快捷方式引用同一原文，未复制正文。此入口不改变原文访问权限。",
+      "document_id": "B49JdM3BRoijG9xM1ckcGXKinDh",
+      "revision_id": 4
+    },
+    "warnings": [
+      "--detail full is only supported with --doc-format xml; returning markdown output and ignoring the unsupported detail option"
+    ]
+  }
+}

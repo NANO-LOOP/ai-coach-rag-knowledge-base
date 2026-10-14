@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "# 心态与恢复",
+      "document_id": "HVZKdi2CNozufxxe45bcFTY7nfe",
+      "revision_id": 1
+    },
+    "warnings": [
+      "--detail full is only supported with --doc-format xml; returning markdown output and ignoring the unsupported detail option"
+    ]
+  }
+}

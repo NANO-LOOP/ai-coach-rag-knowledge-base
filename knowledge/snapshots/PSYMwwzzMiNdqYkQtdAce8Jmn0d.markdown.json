@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title>产品架构与规则</title>\n\n管理版本：2.0.0｜2026-09-29\n\n本区保存产品架构与行为规则。它们约束系统如何使用知识，不作为运动生理事实混入专业检索。\n\n[架构设计 v1.3（原文快捷方式）](https://ni4nrbhniif.feishu.cn/wiki/WAo8wUHTRiBNOnk7l68c1bdxn3g)\n\n该文注明历史归档；正式实施需核对现行产品与开发文档。当前评审脚本仅提供语义映射，未冻结生产 API。\n\n[产品改进建议｜待产品确认](https://ni4nrbhniif.feishu.cn/wiki/TI6EwvFnSirKfJksw5tcJhiknpb)\n\n# 与专家知识的分界\n\n专家可以指出追问、数据缺口和规则问题。这些记录为产品改进候选；采纳生理知识不等于批准改动按钮颜色、K状态或用户问题预算。",
+      "document_id": "VfUodLddbomQiUxGfpVcMQqOnce",
+      "revision_id": 2
+    },
+    "warnings": [
+      "--detail full is only supported with --doc-format xml; returning markdown output and ignoring the unsupported detail option"
+    ]
+  }
+}

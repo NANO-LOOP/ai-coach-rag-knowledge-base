@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title id=\"V77XdLpjNokzxSxwR6FcWOLonDg\">数据结构与研发交接说明</title><p id=\"doxcnFhpYeQJkWeuE0tzr8Ovtxq\">管理版本：2.0.0｜2026-09-29</p><p id=\"doxcnqpKv5yEk9fz8xSQtI654Cf\">交接入口就是 RAG库知识储备。本轮交付知识组织、正文快照、审阅约定和本地工具，不代表已部署检索服务或完成全部科学审核。</p><h1 id=\"doxcnsDrPluVG9C1FevQ4mNMoTg\" seq=\"auto\" seq-marker=\"1.\">资产</h1><p id=\"doxcnrI8bzJBtSPYHtqbbVNsTxe\">articles/*.md 保存原文快照；manifest.json 保存文档ID、链接、分类、版本、抓取时间、正文hash和访问要求；knowledge-units.jsonl 保存完整章节与稳定ID、来源、条件、边界和审阅状态。</p><h1 id=\"doxcnjwG0Eq5Gyw4rH87L4qVagc\" seq=\"auto\" seq-marker=\"2.\">检索分流</h1><p id=\"doxcntXs8EcCekwF3L4lZrCcxqc\">knowledge 是专业文章；product_rule 是产品规则；case 是案例；navigation 是导航；dispute 是争议。默认正式知识检索仅使用 rag_eligible=true 单元。未审阅、条件边界未结构化、版本失配及来源待核验不会自动进入这个集合。</p><p id=\"doxcn3axtLAyYQ7QTyOuXnyscnf\">当前初始章节索引全部待逐点核对；正式可检索标记为零不表示没有内容，而是没有给未经核验的历史资料自动盖章。原文内容已完整保留，可用于研发设计与专家工作。</p><h1 id=\"doxcnDGDhBj9BwSVaRIwE0D9izI\" seq=\"auto\" seq-marker=\"3.\">结构与版本</h1><p id=\"doxcnHUxWdGxukqgorc9WhWiQSd\">输入包含 identity、role、event、facts、calculations、rules；事实保留来源、时间和有效性。评审schema为1.0.0，属于语义适配，须与实际后端接口对照。原附件initial_input可导入，未来答案和audit_only不进入Coach生成输入。</p><p id=\"doxcnhPZGt4FbWAbEHLtb8yRArf\">复验输出记录用户消息、可选一问、事实及知识引用、主要假设、行动和版本。独立干净请求才可用于盲测；已看完整答案的专家聊天只能用于演示改写。工具不调用模型API，也不把本地校验称作生产验收。</p><h1 id=\"doxcn1Xbpib3Udsud7ObsUj9hNh\" seq=\"auto\" seq-marker=\"4.\">研发后续工作</h1><p id=\"doxcnts803lub3KVTlu1sZl7Jcc\">核对生产字段与事件权限；按适用条件保留上下文切片；做访问权限过滤、引用与撤回同步；对专业知识和案例分别建立检索与评测；结合真实专家反馈验证效果。</p><p id=\"doxcnyj9a0KNk9Z3ZIRtvLsl7ag\">快照中的附件标记保留在正文，但二进制附件未自动转录；如需要其中的内容，应另行取回、核对许可及解析结果。拥有导出文件或Skill不等于拥有飞书原文权限。</p><figure id=\"doxcnDXBcUkzm2QpnsUcorQKGTc\" view-type=\"Card\"><source id=\"doxcnyUlPLENCZoJNQTOjV9buee\" name=\"nuromova-rag-handoff-20260929.zip\" mime=\"application/zip\" size=\"254418\" token=\"HsQIbv53CoCWRIxuG63cY1aMnQb\"/></figure><figure id=\"doxcnwAPgja1jcVQXQwApXDpOSd\" view-type=\"Card\"><source id=\"doxcn4S8umP9Sj4H2FSexDF1nRd\" name=\"nuromova-expert-coach-skills-v2.0.0.zip\" mime=\"application/zip\" size=\"52608\" token=\"QzoUbCiubotItux2c8mcE2YbnPe\"/></figure>",
+      "document_id": "V77XdLpjNokzxSxwR6FcWOLonDg",
+      "revision_id": 6
+    }
+  }
+}

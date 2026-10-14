@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nuromova 专家对话"
+  short_description: "用轻松案例持续交流，协调专业访谈、知识修订与飞书知识库维护"
+  default_prompt: "请用 $nuromova-expert-coach 开始一轮轻松的专家知识讨论。"
+policy:
+  allow_implicit_invocation: true

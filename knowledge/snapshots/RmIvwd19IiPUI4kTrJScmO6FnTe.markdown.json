@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "# 运动",
+      "document_id": "X284d7lquo4wqkxrahCcIa5tnbb",
+      "revision_id": 1
+    },
+    "warnings": [
+      "--detail full is only supported with --doc-format xml; returning markdown output and ignoring the unsupported detail option"
+    ]
+  }
+}

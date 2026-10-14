@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nuromova 专家访谈"
+  short_description: "顺着专家的回答深入机制、适用条件和反例，整理可复用专业经验"
+  default_prompt: "请用 $nuromova-expert-interview 继续讨论刚才的判断依据。"
+policy:
+  allow_implicit_invocation: true

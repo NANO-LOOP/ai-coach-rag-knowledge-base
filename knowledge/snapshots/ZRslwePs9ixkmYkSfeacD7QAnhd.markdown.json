@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "# 饮食",
+      "document_id": "CpjjdvyDOo0KYOx5OWscX4ijnbd",
+      "revision_id": 1
+    },
+    "warnings": [
+      "--detail full is only supported with --doc-format xml; returning markdown output and ignoring the unsupported detail option"
+    ]
+  }
+}

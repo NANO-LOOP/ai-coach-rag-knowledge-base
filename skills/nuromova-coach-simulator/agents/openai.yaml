@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nuromova Coach 模拟"
+  short_description: "用结构化数据生成运动前后案例，控制每轮证据并复验知识修订"
+  default_prompt: "请用 $nuromova-coach-simulator 生成一份运动后的模拟案例。"
+policy:
+  allow_implicit_invocation: true

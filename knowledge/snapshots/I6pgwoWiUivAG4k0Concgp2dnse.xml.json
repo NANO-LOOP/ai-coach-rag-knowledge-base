@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title id=\"VhIkduOKKoIV4Gx4DC1cdxhUn0d\">管理与研发交付</title><p id=\"doxcnuc4R0SoWV9OAF4nbtyXcxf\">管理版本：2.0.0｜2026-09-29</p><p id=\"doxcnAOERHyRpHdxuzctbMKrxYB\">用于维护知识结构、专家审阅记录和研发交接。读者可以从本页判断资料来自哪里、哪些内容可用、哪些仍需核对。</p><p id=\"doxcnCh9HJd8DP7KHQCK508inLf\"><a href=\"https://ni4nrbhniif.feishu.cn/wiki/PdGgwVzgziTpo7keALicGIQUnvQ\">知识索引与审阅进度</a></p><p id=\"doxcnJNWfPgz0OEvEn2Ht7EIkQh\"><a href=\"https://ni4nrbhniif.feishu.cn/wiki/Hunlw09biivd6Wkh0xccZLPgnCd\">待确认修改与争议</a></p><p id=\"doxcnNX3TonTncsuxqPc52tfJTh\"><a href=\"https://ni4nrbhniif.feishu.cn/wiki/F19CwrvphisJmIkWuzQcDXWqnae\">版本与变更记录</a></p><p id=\"doxcnJjnPfIn85owlC19X15C4be\"><a href=\"https://ni4nrbhniif.feishu.cn/wiki/E2NdwIlVTiCET9k7RjOchXEhnAb\">数据结构与研发交接说明</a></p><p id=\"doxcnd5AWzDGwYOODiElpTSPyyd\">专业正文保留完整机制、场景和边界；管理信息放这里，避免让专家阅读正文时被流程字段打断。</p>",
+      "document_id": "VhIkduOKKoIV4Gx4DC1cdxhUn0d",
+      "revision_id": 2
+    }
+  }
+}

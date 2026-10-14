@@ -1,0 +1,494 @@
+[
+  {
+    "id": "hyrox-pre",
+    "sport": "HYROX",
+    "role": "pre",
+    "topic": "跑段维持与站点后恢复衔接",
+    "goal": "根据当前条件调整本次训练",
+    "button_color": "yellow",
+    "facts": [
+      {
+        "kind": "state",
+        "key": "fatigue",
+        "value": "ATTENTION",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "psychological_stress",
+        "value": "IDEAL",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "energy",
+        "value": "ATTENTION",
+        "source": "algorithm"
+      },
+      {
+        "kind": "background",
+        "key": "preparation",
+        "value": "昨天做了下肢力量训练，主观上比计划吃力。",
+        "source": "user"
+      },
+      {
+        "kind": "profile",
+        "key": "experience",
+        "value": "有规律训练的成年业余运动者",
+        "source": "profile"
+      }
+    ]
+  },
+  {
+    "id": "hyrox-post",
+    "sport": "HYROX",
+    "role": "post",
+    "topic": "跑段维持与站点后恢复衔接",
+    "goal": "解释本场表现并给出下次调整",
+    "button_color": "yellow",
+    "facts": [
+      {
+        "kind": "performance",
+        "key": "self_report",
+        "value": "后半程跑段维持吃力；没有站点分段记录。",
+        "source": "user"
+      },
+      {
+        "kind": "questionnaire",
+        "key": "srpe",
+        "value": 7,
+        "unit": "0–10",
+        "source": "questionnaire"
+      },
+      {
+        "kind": "state",
+        "key": "fatigue_trend",
+        "value": "后半程升高",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "emotion",
+        "value": null,
+        "status": "missing",
+        "source": "algorithm"
+      },
+      {
+        "kind": "marker",
+        "key": "blank_blink",
+        "value": null,
+        "source": "blink"
+      }
+    ]
+  },
+  {
+    "id": "badminton-pre",
+    "sport": "羽毛球",
+    "role": "pre",
+    "topic": "跑动、发力与击球节奏",
+    "goal": "根据当前条件调整本次训练",
+    "button_color": "yellow",
+    "facts": [
+      {
+        "kind": "state",
+        "key": "fatigue",
+        "value": "ATTENTION",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "psychological_stress",
+        "value": "IDEAL",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "energy",
+        "value": "ATTENTION",
+        "source": "algorithm"
+      },
+      {
+        "kind": "background",
+        "key": "preparation",
+        "value": "昨晚睡眠5小时；早餐有面包和鸡蛋，食量未记录。",
+        "source": "user"
+      },
+      {
+        "kind": "profile",
+        "key": "experience",
+        "value": "有规律训练的成年业余运动者",
+        "source": "profile"
+      }
+    ]
+  },
+  {
+    "id": "badminton-post",
+    "sport": "羽毛球",
+    "role": "post",
+    "topic": "跑动、发力与击球节奏",
+    "goal": "解释本场表现并给出下次调整",
+    "button_color": "yellow",
+    "facts": [
+      {
+        "kind": "performance",
+        "key": "self_report",
+        "value": "后半程移动到位变慢，前臂发紧；未记录回合和比分。",
+        "source": "user"
+      },
+      {
+        "kind": "questionnaire",
+        "key": "srpe",
+        "value": 7,
+        "unit": "0–10",
+        "source": "questionnaire"
+      },
+      {
+        "kind": "state",
+        "key": "fatigue_trend",
+        "value": "后半程升高",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "emotion",
+        "value": null,
+        "status": "missing",
+        "source": "algorithm"
+      },
+      {
+        "kind": "marker",
+        "key": "blank_blink",
+        "value": null,
+        "source": "blink"
+      }
+    ]
+  },
+  {
+    "id": "cycling-pre",
+    "sport": "骑行",
+    "role": "pre",
+    "topic": "目标强度与疲劳下的踩踏",
+    "goal": "根据当前条件调整本次训练",
+    "button_color": "yellow",
+    "facts": [
+      {
+        "kind": "state",
+        "key": "fatigue",
+        "value": "ATTENTION",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "psychological_stress",
+        "value": "IDEAL",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "energy",
+        "value": "ATTENTION",
+        "source": "algorithm"
+      },
+      {
+        "kind": "background",
+        "key": "preparation",
+        "value": "昨天通勤骑行；今天计划轻松骑，不以速度为目标。",
+        "source": "user"
+      },
+      {
+        "kind": "profile",
+        "key": "experience",
+        "value": "有规律训练的成年业余运动者",
+        "source": "profile"
+      }
+    ]
+  },
+  {
+    "id": "cycling-post",
+    "sport": "骑行",
+    "role": "post",
+    "topic": "目标强度与疲劳下的踩踏",
+    "goal": "解释本场表现并给出下次调整",
+    "button_color": "yellow",
+    "facts": [
+      {
+        "kind": "performance",
+        "key": "self_report",
+        "value": "末段主观腿沉，踏频记录未提供；没有功率数据。",
+        "source": "user"
+      },
+      {
+        "kind": "questionnaire",
+        "key": "srpe",
+        "value": 7,
+        "unit": "0–10",
+        "source": "questionnaire"
+      },
+      {
+        "kind": "state",
+        "key": "fatigue_trend",
+        "value": "后半程升高",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "emotion",
+        "value": null,
+        "status": "missing",
+        "source": "algorithm"
+      },
+      {
+        "kind": "marker",
+        "key": "blank_blink",
+        "value": null,
+        "source": "blink"
+      }
+    ]
+  },
+  {
+    "id": "shooting-pre",
+    "sport": "射击",
+    "role": "pre",
+    "topic": "疲劳与稳定持枪",
+    "goal": "根据当前条件调整本次训练",
+    "button_color": "yellow",
+    "facts": [
+      {
+        "kind": "state",
+        "key": "fatigue",
+        "value": "ATTENTION",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "psychological_stress",
+        "value": "IDEAL",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "energy",
+        "value": "ATTENTION",
+        "source": "algorithm"
+      },
+      {
+        "kind": "background",
+        "key": "preparation",
+        "value": "昨晚睡眠不足，准备在正规场地按教练要求练习。",
+        "source": "user"
+      },
+      {
+        "kind": "profile",
+        "key": "experience",
+        "value": "有规律训练的成年业余运动者",
+        "source": "profile"
+      }
+    ]
+  },
+  {
+    "id": "shooting-post",
+    "sport": "射击",
+    "role": "post",
+    "topic": "疲劳与稳定持枪",
+    "goal": "解释本场表现并给出下次调整",
+    "button_color": "yellow",
+    "facts": [
+      {
+        "kind": "performance",
+        "key": "self_report",
+        "value": "后段主观握持不稳；没有分组成绩与枪械记录。",
+        "source": "user"
+      },
+      {
+        "kind": "questionnaire",
+        "key": "srpe",
+        "value": 7,
+        "unit": "0–10",
+        "source": "questionnaire"
+      },
+      {
+        "kind": "state",
+        "key": "fatigue_trend",
+        "value": "后半程升高",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "emotion",
+        "value": null,
+        "status": "missing",
+        "source": "algorithm"
+      },
+      {
+        "kind": "marker",
+        "key": "blank_blink",
+        "value": null,
+        "source": "blink"
+      }
+    ]
+  },
+  {
+    "id": "running-pre",
+    "sport": "跑步",
+    "role": "pre",
+    "topic": "后程质量与训练目的",
+    "goal": "根据当前条件调整本次训练",
+    "button_color": "yellow",
+    "facts": [
+      {
+        "kind": "state",
+        "key": "fatigue",
+        "value": "ATTENTION",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "psychological_stress",
+        "value": "IDEAL",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "energy",
+        "value": "ATTENTION",
+        "source": "algorithm"
+      },
+      {
+        "kind": "background",
+        "key": "preparation",
+        "value": "昨天工作压力偏高，今天计划轻松跑。",
+        "source": "user"
+      },
+      {
+        "kind": "profile",
+        "key": "experience",
+        "value": "有规律训练的成年业余运动者",
+        "source": "profile"
+      }
+    ]
+  },
+  {
+    "id": "running-post",
+    "sport": "跑步",
+    "role": "post",
+    "topic": "后程质量与训练目的",
+    "goal": "解释本场表现并给出下次调整",
+    "button_color": "yellow",
+    "facts": [
+      {
+        "kind": "performance",
+        "key": "self_report",
+        "value": "后半程比前半程更吃力；两段配速未记录。",
+        "source": "user"
+      },
+      {
+        "kind": "questionnaire",
+        "key": "srpe",
+        "value": 7,
+        "unit": "0–10",
+        "source": "questionnaire"
+      },
+      {
+        "kind": "state",
+        "key": "fatigue_trend",
+        "value": "后半程升高",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "emotion",
+        "value": null,
+        "status": "missing",
+        "source": "algorithm"
+      },
+      {
+        "kind": "marker",
+        "key": "blank_blink",
+        "value": null,
+        "source": "blink"
+      }
+    ]
+  },
+  {
+    "id": "athletics-pre",
+    "sport": "田径",
+    "role": "pre",
+    "topic": "速度课质量与疲劳",
+    "goal": "根据当前条件调整本次训练",
+    "button_color": "yellow",
+    "facts": [
+      {
+        "kind": "state",
+        "key": "fatigue",
+        "value": "ATTENTION",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "psychological_stress",
+        "value": "IDEAL",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "energy",
+        "value": "ATTENTION",
+        "source": "algorithm"
+      },
+      {
+        "kind": "background",
+        "key": "preparation",
+        "value": "今天安排短跑技术训练；昨天训练内容未记录。",
+        "source": "user"
+      },
+      {
+        "kind": "profile",
+        "key": "experience",
+        "value": "有规律训练的成年业余运动者",
+        "source": "profile"
+      }
+    ]
+  },
+  {
+    "id": "athletics-post",
+    "sport": "田径",
+    "role": "post",
+    "topic": "速度课质量与疲劳",
+    "goal": "解释本场表现并给出下次调整",
+    "button_color": "yellow",
+    "facts": [
+      {
+        "kind": "performance",
+        "key": "self_report",
+        "value": "后几次加速主观动作变紧；没有计时或视频。",
+        "source": "user"
+      },
+      {
+        "kind": "questionnaire",
+        "key": "srpe",
+        "value": 7,
+        "unit": "0–10",
+        "source": "questionnaire"
+      },
+      {
+        "kind": "state",
+        "key": "fatigue_trend",
+        "value": "后半程升高",
+        "source": "algorithm"
+      },
+      {
+        "kind": "state",
+        "key": "emotion",
+        "value": null,
+        "status": "missing",
+        "source": "algorithm"
+      },
+      {
+        "kind": "marker",
+        "key": "blank_blink",
+        "value": null,
+        "source": "blink"
+      }
+    ]
+  }
+]

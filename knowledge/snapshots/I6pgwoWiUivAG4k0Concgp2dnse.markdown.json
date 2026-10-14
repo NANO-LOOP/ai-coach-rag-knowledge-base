@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "# 管理与研发交付\n\n管理版本：2.0.0｜2026-09-29\n\n用于维护知识结构、专家审阅记录和研发交接。读者可以从本页判断资料来自哪里、哪些内容可用、哪些仍需核对。\n\n[知识索引与审阅进度](https://ni4nrbhniif.feishu.cn/wiki/PdGgwVzgziTpo7keALicGIQUnvQ)\n\n[待确认修改与争议](https://ni4nrbhniif.feishu.cn/wiki/Hunlw09biivd6Wkh0xccZLPgnCd)\n\n[版本与变更记录](https://ni4nrbhniif.feishu.cn/wiki/F19CwrvphisJmIkWuzQcDXWqnae)\n\n[数据结构与研发交接说明](https://ni4nrbhniif.feishu.cn/wiki/E2NdwIlVTiCET9k7RjOchXEhnAb)\n\n专业正文保留完整机制、场景和边界；管理信息放这里，避免让专家阅读正文时被流程字段打断。",
+      "document_id": "VhIkduOKKoIV4Gx4DC1cdxhUn0d",
+      "revision_id": 2
+    },
+    "warnings": [
+      "--detail full is only supported with --doc-format xml; returning markdown output and ignoring the unsupported detail option"
+    ]
+  }
+}

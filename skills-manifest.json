@@ -1,0 +1,141 @@
+{
+  "source": "installed Nuromova skills",
+  "captured_at": "2026-10-14",
+  "files": [
+    {
+      "path": "skills/nuromova-coach-simulator/SKILL.md",
+      "sha256": "cec2591e358f4ed2ce55584fcfb32dced092848b4be61d1a9cd6575829db43a7",
+      "bytes": 3710
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/agents/openai.yaml",
+      "sha256": "9a66a0c2bdcaa1579a8140aa77a6fa8e5b399111e95aaff76b919c834ce2d1ec",
+      "bytes": 294
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/contracts/candidate.schema.json",
+      "sha256": "5c01977501946bf396947cd8dedd8af56a75ec81584836aa5fdc0509f2ca298f",
+      "bytes": 5046
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/contracts/input.schema.json",
+      "sha256": "7fb038c5b6ea1043460edb90465e2ce5dee963e0a44297f7fb382ee77339b7b6",
+      "bytes": 11762
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/contracts/knowledge-unit.schema.json",
+      "sha256": "6c01efbbd28968af5491607c4a658666e3ba40abdbdb912dc1d85136d46b581d",
+      "bytes": 2030
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/contracts/output.schema.json",
+      "sha256": "6ac7505ee7c751da8c9da4bdf4dea42b1e99fba69977548475cf2f92f86fba53",
+      "bytes": 3383
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/fixtures/scenarios.json",
+      "sha256": "7efe063a3feb7923217717628d7a206c24421ce281067b912c57c84b864b14e7",
+      "bytes": 11666
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/package-lock.json",
+      "sha256": "ec30fb86c8e31886b09fdd18b467decc6091f7f1aab96f31e335a8aabc102095",
+      "bytes": 2935
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/package.json",
+      "sha256": "690679142c41f7ef102d2eabbb6823d8845b7bb295486a36677810082e73c4d3",
+      "bytes": 271
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/references/coach-policy.md",
+      "sha256": "3bd1c45a4a7beb668b269a644620e71ad4abbb525480562835f85d8397d2dc4b",
+      "bytes": 1966
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/references/contract.md",
+      "sha256": "153a0a0c65a371b6de8bbaf25257a9c4ee1b3c9a4e5b76cb522063e7b4bd1443",
+      "bytes": 3202
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/references/tools.md",
+      "sha256": "3ad8a784a1bdc4b203c5715012c7b2b7c81fbd38ab72e3fc17d47a88092d09b4",
+      "bytes": 3464
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/scripts/coach-kit.mjs",
+      "sha256": "b626db6d25d811c537f8c14f5ae70e81dd4d7134c58ea46bc6ffa73396577cde",
+      "bytes": 10820
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/scripts/lib.mjs",
+      "sha256": "9d181e25ea44dc013e8c1eb9a4447129f42e45ddcb36a68887240529ed403212",
+      "bytes": 10363
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/tests/coach-kit.test.mjs",
+      "sha256": "22581f67cde192ec59d6a7983e6fa6a9d6d4734e8f3e6bdb05c48b6ccc0ed7a4",
+      "bytes": 9527
+    },
+    {
+      "path": "skills/nuromova-coach-simulator/tests/review-regressions.test.mjs",
+      "sha256": "d021230db5357c733102c8668a2095af1f7bcbe3110e4aacbbe7c9033a41bf59",
+      "bytes": 4086
+    },
+    {
+      "path": "skills/nuromova-expert-coach/SKILL.md",
+      "sha256": "160ec96a2fe95713fbbc87adb5ed646d560673e20828f9af6143c8f524ab41ea",
+      "bytes": 5025
+    },
+    {
+      "path": "skills/nuromova-expert-coach/agents/openai.yaml",
+      "sha256": "72c8f21bb540b012112763afae4343af5aae48d15a0a9cc570ed88bed74b82e1",
+      "bytes": 297
+    },
+    {
+      "path": "skills/nuromova-expert-coach/references/architecture.md",
+      "sha256": "396bb4839a24b8adc19a0e29557f05f2847d904b7cda4364896afd3810eedbd2",
+      "bytes": 1689
+    },
+    {
+      "path": "skills/nuromova-expert-coach/references/cold-start.md",
+      "sha256": "b10f62f636ed55d86989ef177282eac7cd5442546192e09e1f0d009a5832eb88",
+      "bytes": 3044
+    },
+    {
+      "path": "skills/nuromova-expert-interview/SKILL.md",
+      "sha256": "7445775eaa39a20ad04e92df6fba669369cd4b1ea080c43c17f3ffaf30b36a09",
+      "bytes": 3780
+    },
+    {
+      "path": "skills/nuromova-expert-interview/agents/openai.yaml",
+      "sha256": "6b1a8117ebc0be870b6c4204a27f685dab0735202a106e9739b45abb46f39206",
+      "bytes": 295
+    },
+    {
+      "path": "skills/nuromova-knowledge-editor/SKILL.md",
+      "sha256": "4782f81b1a38fb940dc5992156caf6b49801b5b18c2b3aef48a9e98ed9edeb41",
+      "bytes": 4443
+    },
+    {
+      "path": "skills/nuromova-knowledge-editor/agents/openai.yaml",
+      "sha256": "7ffb3a87aa81f7aae8a2079b297c0afe7810c21e22825af868f0d86e49650d35",
+      "bytes": 295
+    },
+    {
+      "path": "skills/nuromova-knowledge-editor/config/knowledge-base.json",
+      "sha256": "acb16ea52a061af2265e2ec1c96987d19f1e5e13581c8fb8b38396f97ae94087",
+      "bytes": 14739
+    },
+    {
+      "path": "skills/nuromova-knowledge-editor/references/feishu.md",
+      "sha256": "be24ffbb4d85433134e63280aede73d360b82ab110c81f0c35f25f4f93f6983f",
+      "bytes": 2008
+    },
+    {
+      "path": "skills/nuromova-knowledge-editor/references/knowledge-contract.md",
+      "sha256": "1c0c41ba78ad21d439d43523da1713d22dabf2ff059363cfe9d1c1d68662ddb3",
+      "bytes": 2619
+    }
+  ]
+}

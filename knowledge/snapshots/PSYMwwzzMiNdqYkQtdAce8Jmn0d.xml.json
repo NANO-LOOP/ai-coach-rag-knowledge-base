@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title id=\"VfUodLddbomQiUxGfpVcMQqOnce\">产品架构与规则</title><p id=\"doxcnPAEkkURNWjzG0R74bB5kXe\">管理版本：2.0.0｜2026-09-29</p><p id=\"doxcn6EWj7d8N8Tujx10EEZFrDf\">本区保存产品架构与行为规则。它们约束系统如何使用知识，不作为运动生理事实混入专业检索。</p><p id=\"doxcn01FuS0aptwwqFEMzcAUlRb\"><a href=\"https://ni4nrbhniif.feishu.cn/wiki/WAo8wUHTRiBNOnk7l68c1bdxn3g\">架构设计 v1.3（原文快捷方式）</a></p><p id=\"doxcnGIrdb5fLXf1zarYvwRGQ8g\">该文注明历史归档；正式实施需核对现行产品与开发文档。当前评审脚本仅提供语义映射，未冻结生产 API。</p><p id=\"doxcnrDlUEYfcqzQWrhaNMZBwOe\"><a href=\"https://ni4nrbhniif.feishu.cn/wiki/TI6EwvFnSirKfJksw5tcJhiknpb\">产品改进建议｜待产品确认</a></p><h1 id=\"doxcndjk4ENbGhEPCeR0grriheg\" seq=\"auto\" seq-marker=\"1.\">与专家知识的分界</h1><p id=\"doxcnJa6PBhliYboTOhe8Np1gxb\">专家可以指出追问、数据缺口和规则问题。这些记录为产品改进候选；采纳生理知识不等于批准改动按钮颜色、K状态或用户问题预算。</p>",
+      "document_id": "VfUodLddbomQiUxGfpVcMQqOnce",
+      "revision_id": 2
+    }
+  }
+}

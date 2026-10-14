@@ -1,0 +1,362 @@
+{
+  "version": "2.0.1",
+  "root_url": "https://ni4nrbhniif.feishu.cn/wiki/RqDGw7Oo8irVhQkoG5jcUlnSnlb",
+  "ai_coach_parent": "https://ni4nrbhniif.feishu.cn/wiki/SfRqwkVFHiuGkokg5oFcKF0JnDb",
+  "knowledge_url": "https://ni4nrbhniif.feishu.cn/wiki/NqrMwCyy4i2pwnk5lPSc3coVnlb",
+  "sections": {
+    "cases": {
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/Eu8DwX2upiRfV7kpSqVcZ90Xn9c",
+      "node_token": "Eu8DwX2upiRfV7kpSqVcZ90Xn9c"
+    },
+    "post": {
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/YARlwqKKKire6ZkyU2jcvcFNnxe",
+      "node_token": "YARlwqKKKire6ZkyU2jcvcFNnxe"
+    },
+    "management": {
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/I6pgwoWiUivAG4k0Concgp2dnse",
+      "node_token": "I6pgwoWiUivAG4k0Concgp2dnse"
+    },
+    "changes": {
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/F19CwrvphisJmIkWuzQcDXWqnae",
+      "node_token": "F19CwrvphisJmIkWuzQcDXWqnae"
+    },
+    "proposals": {
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/TI6EwvFnSirKfJksw5tcJhiknpb",
+      "node_token": "TI6EwvFnSirKfJksw5tcJhiknpb"
+    },
+    "product": {
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/PSYMwwzzMiNdqYkQtdAce8Jmn0d",
+      "node_token": "PSYMwwzzMiNdqYkQtdAce8Jmn0d"
+    },
+    "index": {
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/PdGgwVzgziTpo7keALicGIQUnvQ",
+      "node_token": "PdGgwVzgziTpo7keALicGIQUnvQ"
+    },
+    "handoff": {
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/E2NdwIlVTiCET9k7RjOchXEhnAb",
+      "node_token": "E2NdwIlVTiCET9k7RjOchXEhnAb"
+    },
+    "pre": {
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/VkR4wX23viTxQbkJJyQc2AJ9nLh",
+      "node_token": "VkR4wX23viTxQbkJJyQc2AJ9nLh"
+    },
+    "pending": {
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/Hunlw09biivd6Wkh0xccZLPgnCd",
+      "node_token": "Hunlw09biivd6Wkh0xccZLPgnCd"
+    },
+    "rag": {
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/RqDGw7Oo8irVhQkoG5jcUlnSnlb",
+      "node_token": "RqDGw7Oo8irVhQkoG5jcUlnSnlb"
+    }
+  },
+  "articles": [
+    {
+      "id": "VQikdrOlloGN9TxUKEqcRVn2nLe",
+      "node_token": "IpHXwdJ77iiysikruS7cNst6nNf",
+      "title": "Nuromova T0 AI Coach 架构设计｜工程精简版｜v1.3",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/IpHXwdJ77iiysikruS7cNst6nNf",
+      "revision": "6",
+      "kind": "product_rule",
+      "category": "产品架构与规则",
+      "captured_at": "2026-09-29T07:31:48.582Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": true
+    },
+    {
+      "id": "UpTMd4VRfoGF2GxgBtzcx5Vgnee",
+      "node_token": "VhQww1fPNiMsl5kmHuoc3Rn7n4H",
+      "title": "Nuromova T0 Coach 案例演示｜HYROX 与羽毛球｜v1.4",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/VhQww1fPNiMsl5kmHuoc3Rn7n4H",
+      "revision": "23",
+      "kind": "case",
+      "category": "案例与反例",
+      "captured_at": "2026-09-29T07:31:48.582Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": true
+    },
+    {
+      "id": "XT1YdkhHPoCQyFx1HircPJEtnie",
+      "node_token": "CB5lwOcFAiIhIikfq8ucFqULn5b",
+      "title": "Nuromova AI Coach｜HYROX 专项知识",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/CB5lwOcFAiIhIikfq8ucFqULn5b",
+      "revision": "8",
+      "kind": "knowledge",
+      "category": "运动",
+      "captured_at": "2026-09-29T07:31:48.583Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "EA9TdtPX5oumy3xT5cUc0kHznOT",
+      "node_token": "LUAHw6fNAiIUWtkAfbGcXoqrnCh",
+      "title": "Nuromova AI Coach｜羽毛球专项知识",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/LUAHw6fNAiIUWtkAfbGcXoqrnCh",
+      "revision": "7",
+      "kind": "knowledge",
+      "category": "运动",
+      "captured_at": "2026-09-29T07:31:48.584Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "IoVYdKD2qoJzhLxaUZWcz0CtnHh",
+      "node_token": "L6mbwxM3YiulzhkNGnqcRRm9nqU",
+      "title": "Nuromova AI Coach｜骑行专项知识",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/L6mbwxM3YiulzhkNGnqcRRm9nqU",
+      "revision": "4",
+      "kind": "knowledge",
+      "category": "运动",
+      "captured_at": "2026-09-29T07:31:48.585Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "VWGydBdWgomU5txxzd0cRU1Znod",
+      "node_token": "YjSfwsjTOib4QTkBs9CccCoRntf",
+      "title": "Nuromova AI Coach｜射击专项知识",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/YjSfwsjTOib4QTkBs9CccCoRntf",
+      "revision": "4",
+      "kind": "knowledge",
+      "category": "运动",
+      "captured_at": "2026-09-29T07:31:48.585Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "MT5ud5ww2oTLGvxuWmUcgzwsnuh",
+      "node_token": "NAz4w0ZZbir28ykcqwfcfECDnGc",
+      "title": "Nuromova AI Coach｜跑步专项知识",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/NAz4w0ZZbir28ykcqwfcfECDnGc",
+      "revision": "5",
+      "kind": "knowledge",
+      "category": "运动",
+      "captured_at": "2026-09-29T07:31:48.585Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "UdyydFBAUoDicIxMUeKcisaJnC5",
+      "node_token": "IzR0wkN1Ai9z8XkyrmKc3XiUn5e",
+      "title": "Nuromova AI Coach｜田径专项知识",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/IzR0wkN1Ai9z8XkyrmKc3XiUn5e",
+      "revision": "4",
+      "kind": "knowledge",
+      "category": "运动",
+      "captured_at": "2026-09-29T07:31:48.586Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "RZxkdVW8YoTcN0x5oYbcKAbgnWb",
+      "node_token": "EauxwPGfLiYxb1kNFtAcEtO7nxo",
+      "title": "Nuromova AI Coach｜跨专项案例",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/EauxwPGfLiYxb1kNFtAcEtO7nxo",
+      "revision": "3",
+      "kind": "case",
+      "category": "运动",
+      "captured_at": "2026-09-29T07:31:48.586Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "VYhmdYC3zoZCQ2xUWAFcNvabnHh",
+      "node_token": "LdsDwCDHFipP9Lk2HChcCy3Fn5c",
+      "title": "Nuromova AI Coach｜能量可用性与日常营养",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/LdsDwCDHFipP9Lk2HChcCy3Fn5c",
+      "revision": "3",
+      "kind": "knowledge",
+      "category": "饮食",
+      "captured_at": "2026-09-29T07:31:48.586Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "LXmgd84dNokfZ8xBiPEcJaODnme",
+      "node_token": "N2OuwScxYi0gqokbXZCcAqJQnKf",
+      "title": "Nuromova AI Coach｜训练前、中与胃肠耐受",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/N2OuwScxYi0gqokbXZCcAqJQnKf",
+      "revision": "5",
+      "kind": "knowledge",
+      "category": "饮食",
+      "captured_at": "2026-09-29T07:31:48.587Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "BRbVdvsVRoIaa5xjtjcc9zkdnXg",
+      "node_token": "QTGTwSH7LiFECxkXvalcxAXjnwf",
+      "title": "Nuromova AI Coach｜恢复、蛋白质与补水电解质",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/QTGTwSH7LiFECxkXvalcxAXjnwf",
+      "revision": "5",
+      "kind": "knowledge",
+      "category": "饮食",
+      "captured_at": "2026-09-29T07:31:48.587Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "LAmMdQGnDoe6JhxHrP8cY0fonQh",
+      "node_token": "WqYNw7s7IircrzkAID9cKtuEn4e",
+      "title": "Nuromova AI Coach｜特殊饮食、补剂与记录边界",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/WqYNw7s7IircrzkAID9cKtuEn4e",
+      "revision": "3",
+      "kind": "knowledge",
+      "category": "饮食",
+      "captured_at": "2026-09-29T07:31:48.587Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "DPt3dRhbRoWbhRxNo69cnhQXn2b",
+      "node_token": "EjcLwR0IqiHQzvkivHkcY6Oln5e",
+      "title": "Nuromova AI Coach｜职业运动员准备案例",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/EjcLwR0IqiHQzvkivHkcY6Oln5e",
+      "revision": "3",
+      "kind": "case",
+      "category": "饮食",
+      "captured_at": "2026-09-29T07:31:48.587Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "Dia5dUMOPooFPOxYwXtcxUhYnaf",
+      "node_token": "FqCuwfjHriKfrBkmec4cVkAXnXd",
+      "title": "睡眠受限时的羽毛球运动前决策｜从状态输入到专项调整",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/FqCuwfjHriKfrBkmec4cVkAXnXd",
+      "revision": "3",
+      "kind": "knowledge",
+      "category": "心态与恢复",
+      "captured_at": "2026-09-29T07:31:48.587Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "QtpVdpWisotGx0xsE2fcYyDunQb",
+      "node_token": "NNiYwV00EiyOITkDILLccbtgnJf",
+      "title": "Nuromova AI Coach｜疲劳与恢复",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/NNiYwV00EiyOITkDILLccbtgnJf",
+      "revision": "6",
+      "kind": "knowledge",
+      "category": "心态与恢复",
+      "captured_at": "2026-09-29T07:31:48.588Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "QouCdt0FiotDpwxQtpacYTXunqf",
+      "node_token": "HM17w8qqti8sxwkKuaCcY3mqn1g",
+      "title": "Nuromova AI Coach｜睡眠与节律",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/HM17w8qqti8sxwkKuaCcY3mqn1g",
+      "revision": "3",
+      "kind": "knowledge",
+      "category": "心态与恢复",
+      "captured_at": "2026-09-29T07:31:48.588Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "CPcgdcI1WoqaDAx2hT9cRYaPnwc",
+      "node_token": "Ga6jwVwIyiRLbqkx64PcrVEVnEo",
+      "title": "Nuromova AI Coach｜心理压力、精力与注意",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/Ga6jwVwIyiRLbqkx64PcrVEVnEo",
+      "revision": "4",
+      "kind": "knowledge",
+      "category": "心态与恢复",
+      "captured_at": "2026-09-29T07:31:48.588Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "RWVpdEG9eoawipx05SMcDBQAnMg",
+      "node_token": "UiE7wEdFDimm45kAKzHcVwdBn7g",
+      "title": "Nuromova AI Coach｜跨情境案例",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/UiE7wEdFDimm45kAKzHcVwdBn7g",
+      "revision": "3",
+      "kind": "case",
+      "category": "心态与恢复",
+      "captured_at": "2026-09-29T07:31:48.589Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "R5HCdNHZqoeolAx86WScbJiOnSd",
+      "node_token": "SJxQwBBSxi28WwkYnWRck8Vhnkh",
+      "title": "Nuromova AI Coach｜训练生理与能力发展",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/SJxQwBBSxi28WwkYnWRck8Vhnkh",
+      "revision": "4",
+      "kind": "knowledge",
+      "category": "通用基础",
+      "captured_at": "2026-09-29T07:31:48.589Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "XjFhdIm0fo6L9jxBgEEcy5Ufnoe",
+      "node_token": "NvCzwg7M8imy2mkqCqVcZnL1nld",
+      "title": "Nuromova AI Coach｜强度、负荷与训练反馈",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/NvCzwg7M8imy2mkqCqVcZnL1nld",
+      "revision": "3",
+      "kind": "knowledge",
+      "category": "通用基础",
+      "captured_at": "2026-09-29T07:31:48.590Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "THmcdizqCo3fDzxv67NcJ2M5nnb",
+      "node_token": "Vi8twWtpLiEQAbkIvB9cbExlnId",
+      "title": "Nuromova AI Coach｜动作学习、准备与健康边界",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/Vi8twWtpLiEQAbkIvB9cbExlnId",
+      "revision": "3",
+      "kind": "knowledge",
+      "category": "通用基础",
+      "captured_at": "2026-09-29T07:31:48.590Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    },
+    {
+      "id": "KpuhddtzCo5FkIxfDyHcPVwUnbf",
+      "node_token": "JFojwqtbuifk1nkO6x7cSmZAn0e",
+      "title": "Nuromova AI Coach｜测量、可比性与证据记录",
+      "url": "https://ni4nrbhniif.feishu.cn/wiki/JFojwqtbuifk1nkO6x7cSmZAn0e",
+      "revision": "3",
+      "kind": "knowledge",
+      "category": "通用基础",
+      "captured_at": "2026-09-29T07:31:48.590Z",
+      "access_policy": "source_feishu_permissions_required",
+      "review_status": "unreviewed",
+      "embedded_resources_not_extracted": false
+    }
+  ],
+  "source_note": "Internal experts use the same shared Product department library. Read live documents by default; reconnect only on actual authentication/authorization failure. This catalog is a locator, not prior personal review progress.",
+  "audience": "internal_sports_performance_experts",
+  "collaboration": {
+    "knowledge": "shared_product_department_feishu",
+    "sessions": "local_per_expert",
+    "on_cold_start": "new_local_batch_preserve_shared_knowledge",
+    "scope_authorized": "read_shared_library_and_prepare_revisions",
+    "publish": "after_expert_approves_specific_revision"
+  }
+}

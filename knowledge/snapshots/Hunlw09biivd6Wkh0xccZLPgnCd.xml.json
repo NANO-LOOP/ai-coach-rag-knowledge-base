@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title id=\"NXmYdfnbtoNQvoxWygHcjtQ2n2c\">待确认修改与争议</title><p id=\"doxcnkK2M4Z0xJ89mvPu5Ca1oGh\">管理版本：2.0.0｜2026-09-29</p><p id=\"doxcnkr0NjJHVXMXb5gUqXhvhce\">本轮只完成工具与目录建设，未将新的运动生理结论写成正式知识。此页保存后续专家讨论的候选、争议及未决问题。</p><h1 id=\"doxcnqgVfqAHkjc4aSLeaEnVUgg\" seq=\"auto\" seq-marker=\"1.\">候选修订</h1><p id=\"doxcnYQsSVBGjfYYvazWVTXosRb\">每项保留：候选ID、目标文章与章节、修改前后、专家补充来源、适用条件、证据类型、未决问题、确认状态。先看关键差异，完整稿可展开。</p><h1 id=\"doxcnNLwyJkXiH7SXu42WSUJbZf\" seq=\"auto\" seq-marker=\"2.\">确认与发布</h1><p id=\"doxcnnH3R4aTmeiBUigwcQtKS8g\">Agent 主动建议整理，专家确认具体修改稿后可直接写入。写前检查远端版本，写后读回正文；只在成功核对后标为已写入。确认之后内容改变，旧确认不自动覆盖新稿。</p><h1 id=\"doxcnvC8aMhuV0pacRjNDY8g8Uc\" seq=\"auto\" seq-marker=\"3.\">争议</h1><p id=\"doxcn9eNXQsXvZUbq1dKWP9YQXd\">专家经验与研究证据不一致时分别保留条件、来源和待核实点。暂存争议可继续聊其他主题，不强迫当场定论，也不默认进入用户问答检索。</p>",
+      "document_id": "NXmYdfnbtoNQvoxWygHcjtQ2n2c",
+      "revision_id": 2
+    }
+  }
+}

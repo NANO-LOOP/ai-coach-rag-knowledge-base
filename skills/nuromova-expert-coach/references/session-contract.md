@@ -2,6 +2,10 @@
 
 在项目 `review-data/<session-id>/` 使用 Markdown 记录。该目录已被 Git 忽略；不要强制添加私人对话到公开仓库。需要共享的构造案例经编辑后进入 knowledge/cases/。
 
+## session.md
+
+模式和暂停位置按 [对话模式](dialogue-modes.md) 记录。运动者事实、专家反馈、案例设定修改分别保存，未判定意图的原话暂不归入任何事实或结论。
+
 ## scenario.md
 
 记录 session_id、scenario_id、scenario_version、synthetic、目标、运动阶段、时间线和运行方式。事实表列为 `fact_id | 字段 | 值 | 单位 | 时间 | 来源 | 状态`，状态为 known / unknown / denied / conflicting。unknown 的值留空并说明缺少信息，否定保留否定对象，冲突保留相互矛盾记录。来源区分 synthetic、专家提供的案例事实、运动者本轮回答，不混入专家机制解释。

@@ -1,12 +1,12 @@
 {
   "source": "repository-maintained local Markdown skills",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "captured_at": "2026-10-15",
   "files": [
     {
       "path": "skills/nuromova-coach-simulator/SKILL.md",
-      "sha256": "19aebf38d48847905420729c65148c0de7cb01436e0dfcec58237972b25258e3",
-      "bytes": 2482
+      "sha256": "bea7c621c7a04621e6278546d79a7456b8b5c4bdc27d2bbbd43613180968c786",
+      "bytes": 2696
     },
     {
       "path": "skills/nuromova-coach-simulator/agents/openai.yaml",
@@ -30,8 +30,8 @@
     },
     {
       "path": "skills/nuromova-expert-coach/SKILL.md",
-      "sha256": "58a447745c00b03eeeac9added97b48759776792e5f6583ffe8937ee3bf3f035",
-      "bytes": 2457
+      "sha256": "e5ef8bc13ebfdf63647487a92412650d4c90fbee518f225531ef4e346aa85352",
+      "bytes": 2679
     },
     {
       "path": "skills/nuromova-expert-coach/agents/openai.yaml",
@@ -45,8 +45,13 @@
     },
     {
       "path": "skills/nuromova-expert-coach/references/cold-start.md",
-      "sha256": "5a2841d658414b3c0b39d218f4ff36709756e0e8c8726b7a192d032e6d35241b",
-      "bytes": 1355
+      "sha256": "66921302e0da23d64c09c18ade28129e7b0a5b16e97c88ba1be46e4027e07232",
+      "bytes": 1211
+    },
+    {
+      "path": "skills/nuromova-expert-coach/references/dialogue-modes.md",
+      "sha256": "10defcdc67df7d4d8a7304579e93f6e2f1ed4fb40372878bc41d862ed41c074d",
+      "bytes": 2612
     },
     {
       "path": "skills/nuromova-expert-coach/references/repository.md",
@@ -55,13 +60,13 @@
     },
     {
       "path": "skills/nuromova-expert-coach/references/session-contract.md",
-      "sha256": "98456b641054dab2e5797b3c01b795cf71bfcde5bedb0e2cc8143e3d0a7b2c46",
-      "bytes": 2074
+      "sha256": "4ce3f53a57084ff38d721d0fab4ab003b19a97ce2cb7b43bb9cbaa87ab0f5b71",
+      "bytes": 2285
     },
     {
       "path": "skills/nuromova-expert-interview/SKILL.md",
-      "sha256": "af36b15e5b702f0e0973c7260f7b9f87a85833499811a625e48db8339c2e690c",
-      "bytes": 2034
+      "sha256": "0ce51888aebaa09819b3bb0647eb49852b03c33cf030613a581dfd810506ac71",
+      "bytes": 2248
     },
     {
       "path": "skills/nuromova-expert-interview/agents/openai.yaml",

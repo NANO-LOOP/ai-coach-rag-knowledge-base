@@ -21,7 +21,7 @@ GitHub Markdown 是新知识的主维护源。这个目录管理单元身份、�
 
 当前结构工具读取单行标量形式的 YAML front matter；复杂嵌套元数据应先讨论契约再适配工具，不静默忽略字段。案例与题材标签不能替代具体适用条件。
 
-这套样板元数据是候选约定，与 `skills/nuromova-coach-simulator/contracts/knowledge-unit.schema.json` 中原有枚举和字段不同，不能直接交给旧 schema 校验或上传旧导出流程。后续需要明确适配，当前未修改旧 skills 与其清单。
+当前五个 skills 直接遵循本页和仓库模板。旧模拟器 schema 与导出脚本已归档停用，不作为本库校验或发布接口。
 
 ## 专家维护流程
 

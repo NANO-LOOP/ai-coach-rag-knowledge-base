@@ -1,6 +1,6 @@
 interface:
   display_name: "Nuromova 专家访谈"
-  short_description: "顺着专家的回答深入机制、适用条件和反例，整理可复用专业经验"
-  default_prompt: "请用 $nuromova-expert-interview 继续讨论刚才的判断依据。"
+  short_description: "围绕本地知识和 Coach 案例询问并接收内部专家意见，提取判断线索、适用条件、反例和行动原则，形成可追踪的知识修订建议"
+  default_prompt: "请用 $nuromova-expert-interview 协助我维护当前项目的 Markdown 知识库。"
 policy:
   allow_implicit_invocation: true

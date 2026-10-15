@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nuromova 场景生成"
+  short_description: "为内部专家构造 AI Coach 测试场景和结构化输入，覆盖已知、未知、否定及冲突；用于生成或调整运动案例，不生成 Co"
+  default_prompt: "请用 $nuromova-scenario-simulator 协助我维护当前项目的 Markdown 知识库。"
+policy:
+  allow_implicit_invocation: true

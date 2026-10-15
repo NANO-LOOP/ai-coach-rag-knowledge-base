@@ -1,6 +1,6 @@
 interface:
-  display_name: "Nuromova 知识维护"
-  short_description: "将已确认的专家修订分类写入飞书，维护版本与结构化研发交付"
-  default_prompt: "请用 $nuromova-knowledge-editor 整理本轮已确认的知识修订。"
+  display_name: "Nuromova 知识编辑"
+  short_description: "维护 GitHub 项目的本地 Markdown 知识库结构和正文：将专家意见落实为草稿，管理稳定 ID、来源、审阅与索"
+  default_prompt: "请用 $nuromova-knowledge-editor 协助我维护当前项目的 Markdown 知识库。"
 policy:
   allow_implicit_invocation: true

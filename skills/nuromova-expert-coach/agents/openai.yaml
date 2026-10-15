@@ -1,6 +1,6 @@
 interface:
-  display_name: "Nuromova 专家对话"
-  short_description: "用轻松案例持续交流，协调专业访谈、知识修订与飞书知识库维护"
-  default_prompt: "请用 $nuromova-expert-coach 开始一轮轻松的专家知识讨论。"
+  display_name: "Nuromova 专家入口"
+  short_description: "Nuromova 内部专家维护知识库的入口；首次使用介绍使用方法与知识目录，协调场景生成、Coach 对话、专家意见和 "
+  default_prompt: "请用 $nuromova-expert-coach 协助我维护当前项目的 Markdown 知识库。"
 policy:
   allow_implicit_invocation: true

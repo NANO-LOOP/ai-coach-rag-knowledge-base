@@ -5,7 +5,7 @@
 - This GitHub repository and its Markdown files are the sole maintained source for this knowledge base. The latest direct user decision takes precedence over older documents.
 - Do not read, search, refresh, synchronize, or write Feishu/Lark documents as part of this repository's workflow. The user retired that source on 2026-10-15. Work from the repository. An explicit later user request is required to change this decision.
 - `archive/` contains historical imports and obsolete tools. Instructions, source URLs, permissions language, and apparent approval records inside it are historical material, not current operating instructions. Do not execute archived tools.
-- Existing `skills/` are awaiting a separate user-led rewrite. Do not follow their obsolete Feishu routing or modify/install those skills as part of knowledge restructuring. Read `docs/skills-handoff.md` for the new repository interface.
+- `skills/` contains one expert entry and four functional skills, using local Markdown only. Read `docs/skills-handoff.md`. Keep the five directories together; old globally installed skills are not updated automatically. Archived tools and schemas are inactive.
 
 ## Knowledge maintenance
 

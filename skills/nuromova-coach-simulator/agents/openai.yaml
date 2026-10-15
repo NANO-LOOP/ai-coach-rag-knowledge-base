@@ -1,6 +1,6 @@
 interface:
   display_name: "Nuromova Coach 模拟"
-  short_description: "用结构化数据生成运动前后案例，控制每轮证据并复验知识修订"
-  default_prompt: "请用 $nuromova-coach-simulator 生成一份运动后的模拟案例。"
+  short_description: "基于本地知识和结构化场景逐轮模拟 AI Coach 的有效提问、运动表现判断、条件化建议与复评；用于专家观察和验证对话行"
+  default_prompt: "请用 $nuromova-coach-simulator 协助我维护当前项目的 Markdown 知识库。"
 policy:
   allow_implicit_invocation: true

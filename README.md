@@ -11,7 +11,7 @@ Nuromova AI Coach 的共享知识库。**GitHub 仓库及其中的 Markdown 是�
 - [HYROX 完整问题包](knowledge/topics/hyrox-prior-load/README.md)：从输入到提问、判断、行动的完整样板。
 - [结构与维护约定](knowledge/STRUCTURE.md)、[专家模板](templates/README.md) 和 [贡献说明](CONTRIBUTING.md)。
 - [覆盖与待补项](knowledge/coverage.md)：哪些已有正文，哪些仍缺提问、判断和行动链。
-- [后续 skills 改造交接](docs/skills-handoff.md)：供用户接下来优化专家审阅流程。
+- [专家 skills 使用说明](docs/skills-handoff.md)：一个入口、四项功能及本地 Markdown 工作流。
 
 ## 当前内容
 
@@ -26,11 +26,11 @@ knowledge/     分类知识、专题入口、来源记录、审阅与目录索�
 templates/     专家填写模板
 docs/          迁移和 skills 接口说明
 tools/         仅操作本地仓库的目录检查工具
-skills/        现有 skills，留待用户后续优化
+skills/        专家入口与四个独立功能 Skill
 archive/       历史导入与停用工具，仅作溯源
 ```
 
-历史资料已移出日常维护目录。归档中的旧来源链接与操作指令只作历史材料；当前工作不连接、读取或同步原文档系统。已有 skills 仍保留旧接口和路由，本轮未改动；不得用其中的旧来源流程覆盖当前 Markdown。
+历史资料已移出日常维护目录。归档中的旧来源链接与操作指令只作历史材料；当前工作不连接、读取或同步原文档系统。当前 skills 已采用本地 Markdown 协议；旧工具及不兼容 schema 已归档停用。
 
 ## 维护与检查
 

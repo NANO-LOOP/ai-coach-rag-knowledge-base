@@ -6,6 +6,8 @@ Nuromova AI Coach 的共享知识库。**GitHub 仓库及其中的 Markdown 是�
 
 ## 从这里开始
 
+- **[专家冷启动](START-HERE.md)**：获取 GitHub 仓库、复制启动口令、开始专家协作。
+
 - [知识库总入口](knowledge/README.md)：按类型和专题找到内容。
 - [18 个专题](knowledge/topics/README.md)：运动专项、营养、恢复、心理表现及通用基础。
 - [HYROX 完整问题包](knowledge/topics/hyrox-prior-load/README.md)：从输入到提问、判断、行动的完整样板。

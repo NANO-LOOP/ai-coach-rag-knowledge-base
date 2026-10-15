@@ -7,7 +7,7 @@ description: 基于本地知识和结构化场景逐轮模拟 AI Coach 的有效
 
 # 逐轮 Coach 模拟
 
-输入来自 [场景生成](../nuromova-scenario-simulator/SKILL.md) 或专家提供的结构化事实。读取 [对话原则](references/coach-policy.md) 与 [记录约定](references/contract.md)。当前模型可执行交互式演示，不需要安装旧脚本；不声称调用了未配置的产品后端。
+输入优先读取经过 [L0–L6 合同](../../agent/input-model.md) 校验的 initial_input.json，读取阶段 capability 与 availability，不能因预留字段存在而当作已知或可用。结构校验通过不替代上游资格。输入来自 [场景生成](../nuromova-scenario-simulator/SKILL.md) 或专家提供的结构化事实。读取 [对话原则](references/coach-policy.md) 与 [记录约定](references/contract.md)。当前模型可执行交互式演示，不需要安装旧脚本；不声称调用了未配置的产品后端。
 
 ## App Agent 最小单元
 

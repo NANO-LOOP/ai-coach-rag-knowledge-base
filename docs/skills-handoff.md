@@ -35,3 +35,5 @@ knowledge 的 concepts / assessments / questions / evidence / actions / cases �
 在仓库根运行 `python3 tools/catalog.py --write` 和 `python3 tools/catalog.py --check`，查看 Git diff 后按授权提交。目录校验只验证结构，不验证科学结论或真实训练效果。
 
 旧来源配置、远程文档写回指令均已从当前技能移除；旧 v2.0.1 工具及 schema 保存在 archive/legacy-coach-kit-v2.0.1，仅供追溯。当前技能不得执行归档工具。skills-manifest.json 记录当前技能文件哈希，用于核对分发内容。
+
+场景生成现使用 [L0–L6 输入模型及 T0/T1/T2 缺省](../agent/input-model.md)。默认 T0，JSON 为输入事实源，Markdown 为阅读摘要；模型只接收可见输入，不接收专家预期。

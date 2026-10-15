@@ -6,11 +6,11 @@
 
 模式和暂停位置按 [对话模式](dialogue-modes.md) 记录。运动者事实、专家反馈、案例设定修改分别保存，未判定意图的原话暂不归入任何事实或结论。
 
-## scenario.md
+## initial_input.json、scenario.md 与 simulation_meta.json
 
-记录 session_id、scenario_id、scenario_version、synthetic、目标、运动阶段、时间线和运行方式。事实表列为 `fact_id | 字段 | 值 | 单位 | 时间 | 来源 | 状态`，状态为 known / unknown / denied / conflicting。unknown 的值留空并说明缺少信息，否定保留否定对象，冲突保留相互矛盾记录。来源区分 synthetic、专家提供的案例事实、运动者本轮回答，不混入专家机制解释。
+使用 [L0–L6 输入模型](../../../agent/input-model.md) 的 JSON Schema、阶段配置和缺省模板。initial_input.json 是模拟业务事实源；scenario.md 是专家阅读摘要，不独立维护第二份事实。simulation_meta.json 保存 session_id、scenario_id、scenario_version、synthetic 标记、运行方式、Git HEAD 和引用知识版本/哈希。
 
-起始可见输入与 athlete-role.md 分离。记录当前 Git HEAD、知识路径/ID/version/hash。没有读取的资料不列为已使用。
+起始可见输入与 athlete-role.md、专家预期分开；只有实际收到的运动者回答才追加事实，纠正保留版本与替代关系。三个阶段都保留完整 L0–L6，按能力与数据可用性填写，不用零或否定替代缺省。
 
 ## coach-transcript.md
 

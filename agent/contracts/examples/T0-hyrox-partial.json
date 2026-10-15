@@ -1,0 +1,354 @@
+{
+  "schema_version": "0.1.0",
+  "stage": "T0",
+  "profile_version": "0.1.0",
+  "mode": "synthetic",
+  "as_of": "2026-10-15T20:00:00+08:00",
+  "layers": {
+    "L0": {
+      "identity": {
+        "capability": "supported",
+        "availability": "available",
+        "reason": null,
+        "data": {
+          "user_id": "SYN-USER-01",
+          "sport_event_id": "SYN-HYROX-01",
+          "wear_cycle_id": "SYN-WEAR-01",
+          "coach_record_id": "SYN-COACH-01",
+          "session_id": "SYN-SESSION-01",
+          "analysis_iteration_id": "SYN-ITER-01",
+          "input_event_id": "SYN-INPUT-01",
+          "turn_id": "SYN-TURN-01"
+        }
+      },
+      "controls": {
+        "capability": "supported",
+        "availability": "available",
+        "reason": null,
+        "data": {
+          "consent": "granted",
+          "device_qualified": "passed",
+          "data_processing": "complete",
+          "evidence_basis": "partial",
+          "safety_gate": "unknown",
+          "hardware_wear": "passed",
+          "imu_orientation": "passed",
+          "connection": "ready",
+          "permission": "granted",
+          "stream": "ready",
+          "allowed_operations": [
+            "internal_simulation"
+          ],
+          "source": {
+            "kind": "synthetic",
+            "reference": "example-hyrox-input-v0.1.0",
+            "simulated_source": "system"
+          }
+        }
+      },
+      "quality": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "versions": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "budgets": {
+        "capability": "supported",
+        "availability": "available",
+        "reason": null,
+        "data": {
+          "ordinary_question_limit": 3,
+          "ordinary_questions_asked": 0,
+          "retrieval_budget": null,
+          "source": {
+            "kind": "synthetic",
+            "reference": "example-hyrox-input-v0.1.0",
+            "simulated_source": "system"
+          }
+        }
+      },
+      "runtime": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      }
+    },
+    "L1": {
+      "profile": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "devices": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "baselines": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      },
+      "iznp": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      },
+      "profile_version": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "sport_profiles": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "normal_performance": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      }
+    },
+    "L2": {
+      "task": {
+        "capability": "supported",
+        "availability": "available",
+        "reason": null,
+        "data": {
+          "phase": "post",
+          "sport": "hyrox",
+          "event_type": "training",
+          "goal": "理解后半程表现变化",
+          "competition_stage": null,
+          "available_minutes": null,
+          "success_criteria": [],
+          "source": {
+            "kind": "synthetic",
+            "reference": "example-hyrox-input-v0.1.0",
+            "simulated_source": "user_report"
+          }
+        }
+      },
+      "dialogue": {
+        "capability": "supported",
+        "availability": "available",
+        "reason": null,
+        "data": []
+      },
+      "analysis": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "plan": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "execution_task": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      }
+    },
+    "L3": {
+      "algorithm_states": {
+        "capability": "supported",
+        "availability": "available",
+        "reason": null,
+        "data": [
+          {
+            "id": "SYN-METRIC-01",
+            "metric": "fatigue",
+            "value": 75,
+            "unit": null,
+            "canonical": null,
+            "semantic_label": null,
+            "validity": "valid",
+            "observed_at": null,
+            "window_start": null,
+            "window_end": null,
+            "window_label": "后半程",
+            "algorithm_version": null,
+            "source": {
+              "kind": "synthetic",
+              "reference": "example-hyrox-input-v0.1.0",
+              "simulated_source": "algorithm"
+            }
+          }
+        ]
+      },
+      "hrv": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      },
+      "sleep": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "training_response": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "questionnaire": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "personal_review": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "calculations": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "emotion": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "external_sleep": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      }
+    },
+    "L4": {
+      "current_event": {
+        "capability": "supported",
+        "availability": "available",
+        "reason": null,
+        "data": {
+          "id": "SYN-HYROX-01",
+          "sport": "hyrox",
+          "category": "training",
+          "start_at": "2026-10-15T18:00:00+08:00",
+          "end_at": "2026-10-15T19:10:00+08:00",
+          "duration_minutes": 70,
+          "time_precision": "exact",
+          "relative_time": null,
+          "status": "completed",
+          "facts": [],
+          "source": {
+            "kind": "synthetic",
+            "reference": "example-hyrox-input-v0.1.0",
+            "simulated_source": "event_record"
+          }
+        }
+      },
+      "markers": {
+        "capability": "supported",
+        "availability": "available",
+        "reason": null,
+        "data": [
+          {
+            "id": "SYN-NOTE-01",
+            "event_id": "SYN-HYROX-01",
+            "type": "note",
+            "occurred_at": "2026-10-15T18:36:20+08:00",
+            "recorded_at": "2026-10-15T18:36:20+08:00",
+            "elapsed_seconds": 2180,
+            "text": "腿很沉，跑不起来。",
+            "annotation": null,
+            "snapshot_metric_refs": [],
+            "source": {
+              "kind": "synthetic",
+              "reference": "example-hyrox-input-v0.1.0",
+              "simulated_source": "user_report"
+            }
+          }
+        ]
+      },
+      "context_events": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "symptoms": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      }
+    },
+    "L5": {
+      "history": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "recall": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "previous_coach_records": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "execution_tracking": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      },
+      "outcomes": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      }
+    },
+    "L6": {
+      "patterns": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      },
+      "experience_memory": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      }
+    }
+  }
+}

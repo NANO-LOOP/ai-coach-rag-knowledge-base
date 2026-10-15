@@ -1,0 +1,251 @@
+{
+  "schema_version": "0.1.0",
+  "stage": "T0",
+  "profile_version": "0.1.0",
+  "mode": "synthetic",
+  "as_of": null,
+  "layers": {
+    "L0": {
+      "identity": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "controls": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "quality": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "versions": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "budgets": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "runtime": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      }
+    },
+    "L1": {
+      "profile": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "devices": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "baselines": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      },
+      "iznp": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      },
+      "profile_version": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "sport_profiles": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "normal_performance": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      }
+    },
+    "L2": {
+      "task": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "dialogue": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "analysis": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "plan": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "execution_task": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      }
+    },
+    "L3": {
+      "algorithm_states": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "hrv": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      },
+      "sleep": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "training_response": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "questionnaire": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "personal_review": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "calculations": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "emotion": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "external_sleep": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      }
+    },
+    "L4": {
+      "current_event": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "markers": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "context_events": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "symptoms": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      }
+    },
+    "L5": {
+      "history": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "recall": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "previous_coach_records": {
+        "capability": "supported",
+        "availability": "missing",
+        "reason": "not_provided",
+        "data": null
+      },
+      "execution_tracking": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      },
+      "outcomes": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      }
+    },
+    "L6": {
+      "patterns": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      },
+      "experience_memory": {
+        "capability": "not_supported",
+        "availability": "unavailable",
+        "reason": "unsupported_stage",
+        "data": null
+      }
+    }
+  }
+}

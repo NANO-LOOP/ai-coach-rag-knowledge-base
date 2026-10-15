@@ -1,0 +1,27 @@
+{
+  "read_at": "2026-10-15",
+  "authority_scope": "User-selected stage definition for this input design; no automatic upstream synchronization",
+  "sources": [
+    {
+      "name": "Neuro Performance Agent 开发文档 V0.4",
+      "wiki_url": "https://ni4nrbhniif.feishu.cn/wiki/Q3oTwXFSLiWMC1kILjBcARninRb",
+      "document_id": "YQ93dla8toISj3xPajocgx26nvf",
+      "revision": 1460,
+      "sections": [
+        "3.3",
+        "6.2",
+        "7",
+        "9",
+        "10.2",
+        "10.3"
+      ]
+    },
+    {
+      "name": "Nuromova C 端 AI Coach RAG 知识库",
+      "filename": "nuromova-c-end-rag-library.md",
+      "version": "0.1",
+      "status": "candidate",
+      "date": "2026-10-14"
+    }
+  ]
+}

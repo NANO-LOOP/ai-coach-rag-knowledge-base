@@ -5643,24 +5643,6 @@
     "L2_analysis": {
       "type": "object",
       "properties": {
-        "k_stage": {
-          "anyOf": [
-            {
-              "enum": [
-                "K1",
-                "K2",
-                "K3",
-                "K4",
-                "K5",
-                "K6",
-                "K7"
-              ]
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
         "progress": {
           "enum": [
             "active",
@@ -5738,10 +5720,17 @@
               "type": "null"
             }
           ]
+        },
+        "comparison_basis": {
+          "enum": [
+            "absolute_state",
+            "personal_interval",
+            null
+          ],
+          "description": "分析采用的证据基础；null 表示尚未确定，不表示 App 流程状态。"
         }
       },
       "required": [
-        "k_stage",
         "progress",
         "pending_question",
         "asked_question_ids",
@@ -5750,7 +5739,8 @@
         "lifecycle_status",
         "end_reason",
         "summary_revision",
-        "latest_summary"
+        "latest_summary",
+        "comparison_basis"
       ],
       "additionalProperties": false
     },
@@ -6896,19 +6886,6 @@
                     "properties": {
                       "capability": {
                         "const": "supported"
-                      },
-                      "data": {
-                        "properties": {
-                          "k_stage": {
-                            "enum": [
-                              "K1",
-                              "K2",
-                              "K4",
-                              "K5",
-                              null
-                            ]
-                          }
-                        }
                       }
                     }
                   },
@@ -7220,21 +7197,6 @@
                     "properties": {
                       "capability": {
                         "const": "supported"
-                      },
-                      "data": {
-                        "properties": {
-                          "k_stage": {
-                            "enum": [
-                              "K1",
-                              "K2",
-                              "K4",
-                              "K5",
-                              "K6",
-                              "K7",
-                              null
-                            ]
-                          }
-                        }
                       }
                     }
                   },
@@ -7546,22 +7508,6 @@
                     "properties": {
                       "capability": {
                         "const": "supported"
-                      },
-                      "data": {
-                        "properties": {
-                          "k_stage": {
-                            "enum": [
-                              "K1",
-                              "K2",
-                              "K3",
-                              "K4",
-                              "K5",
-                              "K6",
-                              "K7",
-                              null
-                            ]
-                          }
-                        }
                       }
                     }
                   },
@@ -7770,11 +7716,11 @@
                       "data": {
                         "type": "object",
                         "required": [
-                          "k_stage"
+                          "comparison_basis"
                         ],
                         "properties": {
-                          "k_stage": {
-                            "const": "K3"
+                          "comparison_basis": {
+                            "const": "personal_interval"
                           }
                         }
                       }

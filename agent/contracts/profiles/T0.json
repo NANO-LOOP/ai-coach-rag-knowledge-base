@@ -41,11 +41,5 @@
     "L5.outcomes": "not_supported",
     "L6.patterns": "not_supported",
     "L6.experience_memory": "not_supported"
-  },
-  "review_states": [
-    "K1",
-    "K2",
-    "K4",
-    "K5"
-  ]
+  }
 }

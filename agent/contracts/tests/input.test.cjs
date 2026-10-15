@@ -24,11 +24,11 @@ test('T0 cannot fabricate execution tracking',()=>{const x=defaults('T0');fill(x
 test('T1 may record partial execution without claiming a result',()=>{const x=defaults('T1');fill(x,'L5','execution_tracking',[{id:'E1',plan_id:'P1',plan_version:'1',completed:'partial',confirmed_at:null,source}]);valid(x)});
 test('T1 cannot enable IZNP by changing the capability flag',()=>{const x=defaults('T1');x.layers.L1.iznp.capability='supported';invalid(x)});
 test('T2 does not silently enable an unspecified HRV adapter',()=>{const x=defaults('T2');x.layers.L3.hrv.capability='supported';fill(x,'L3','hrv',[]);invalid(x)});
-function analysis(k){return {k_stage:k,progress:'active',pending_question:null,asked_question_ids:[],hypotheses:[],correction_fact_ids:[],lifecycle_status:'OPEN',end_reason:null,summary_revision:null,latest_summary:null};}
-test('T0 rejects K6 even with otherwise valid analysis',()=>{const x=defaults('T0');fill(x,'L2','analysis',analysis('K6'));invalid(x)});
-test('T1 accepts the K6 state vocabulary',()=>{const x=defaults('T1');fill(x,'L2','analysis',analysis('K6'));valid(x)});
-test('T2 K3 requires comparable upstream IZNP',()=>{
- const x=defaults('T2');fill(x,'L2','analysis',analysis('K3'));invalid(x);
+function analysis(basis=null){return {comparison_basis:basis,progress:'active',pending_question:null,asked_question_ids:[],hypotheses:[],correction_fact_ids:[],lifecycle_status:'OPEN',end_reason:null,summary_revision:null,latest_summary:null};}
+test('T0 cannot claim a personal interval comparison',()=>{const x=defaults('T0');fill(x,'L2','analysis',analysis('personal_interval'));invalid(x)});
+test('analysis uses evidence basis and progress without App workflow states',()=>{for(const stage of ['T0','T1','T2']){const x=defaults(stage);fill(x,'L2','analysis',analysis());valid(x);x.layers.L2.analysis.data.comparison_basis='absolute_state';valid(x);x.layers.L2.analysis.data.app_workflow_state='step_1';invalid(x)}});
+test('personal interval comparison requires comparable upstream IZNP',()=>{
+ const x=defaults('T2');fill(x,'L2','analysis',analysis('personal_interval'));invalid(x);
  fill(x,'L1','iznp',{eligibility:'building',sport_id:'running',context:'training',model_version:null,comparison_event_id:'E1',support_refs:[],ranges:[],source});invalid(x);
  x.layers.L1.iznp.data.eligibility='comparable';valid(x);
 });

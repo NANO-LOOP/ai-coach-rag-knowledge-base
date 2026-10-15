@@ -367,7 +367,7 @@
     {
       "id": "B-619",
       "type": "concept",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "review_status": "draft",
       "evidence_type": "legacy_unclassified",
       "updated_at": "2026-10-15",
@@ -379,12 +379,12 @@
       "source_revision": "3",
       "title": "B-619｜Coach 角色与证据规则：先确认当前事件，再决定分析什么",
       "path": "knowledge/concepts/measurement/B-619.md",
-      "sha256": "e0f0952cc3400bcb80d1d61e4d0c69e00adcc2507b1a70505ebb84f77c122197"
+      "sha256": "9f8fb422bcfe6fe49450e1f8fc6e24e6e67366cdaa0d1f5ad424fd17f3524556"
     },
     {
       "id": "B-620",
       "type": "concept",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "review_status": "draft",
       "evidence_type": "legacy_unclassified",
       "updated_at": "2026-10-15",
@@ -396,7 +396,7 @@
       "source_revision": "3",
       "title": "B-620｜提问、纠正与缺失：只问能改变行动的问题，并让用户能推翻假设",
       "path": "knowledge/concepts/measurement/B-620.md",
-      "sha256": "81a08d3f7beb4d846b5720cbc00a13b120a68271a619623395adc9f5ebf6110e"
+      "sha256": "23ee650150563dad04b0a755142d8b3207898c8ef6beb21369aaaac8e509779d"
     },
     {
       "id": "B-621",

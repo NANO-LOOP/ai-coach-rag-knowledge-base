@@ -9,6 +9,8 @@
 
 ## Knowledge maintenance
 
+- Use domain concepts such as questions, assessment, advice, execution feedback and outcome verification. App-specific numbered workflow states belong in the App implementation, not knowledge content, simulation input schemas or stage profiles.
+
 - Follow `knowledge/STRUCTURE.md`, `knowledge/governance/README.md`, and `CONTRIBUTING.md`.
 - Maintain each knowledge unit once in its typed directory. Topic pages link to units; historical raw imports stay in `archive/`.
 - Imported content and newly drafted interpretation stay unreviewed until an actual expert reviews the stated version. User approval of structure is not professional review of content.

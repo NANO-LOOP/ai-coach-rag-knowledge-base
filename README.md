@@ -1,52 +1,46 @@
 # AI Coach RAG Knowledge Base
 
-Nuromova AI Coach 的知识资产与专家协作 skills。由飞书产品部知识库 **RAG库知识储备** 导出，保留完整文章、目录层级、原文链接、文档版本与内容校验值。
+Nuromova AI Coach 的共享知识库。**GitHub 仓库及其中的 Markdown 是唯一维护源**，支撑结构化输入、有效提问、运动表现分析、条件化建议与复评。
 
-## 内容
+知识内容后续由专家审阅。目录整理、提交或用户认可整体结构，不等于专业审阅，也不代表已进入正式 RAG。
 
-- [`knowledge/`](knowledge/README.md)：飞书 RAG 库全部子节点的正文快照与目录导航。
-- [`knowledge/manifest.json`](knowledge/manifest.json)：导出时间、版本、文件路径、SHA-256 与完整性记录。
-- [`knowledge/EXPORT-NOTES.md`](knowledge/EXPORT-NOTES.md)：本次导出范围、历史附件与失效目录链接说明。
-- `knowledge/snapshots/`：Markdown 与 XML 的完整读取响应，保留引用资源信息。
-- `knowledge/assets/`：文档嵌入素材；本次包含 1 个 Markdown 和 2 个历史 ZIP 附件。
-- [`skills/`](skills/)：四个关联 skill 的完整源码、参考资料、配置、数据契约与工具。
-- [`skills-manifest.json`](skills-manifest.json)：skill 文件的 SHA-256 清单。
-- [`tools/export_feishu.py`](tools/export_feishu.py)：使用自己的飞书登录重新导出知识库。
+## 从这里开始
 
-| Skill | 用途 |
-| --- | --- |
-| `nuromova-expert-coach` | 内部运动专家的连续对话入口 |
-| `nuromova-expert-interview` | 专家访谈与案例点评 |
-| `nuromova-coach-simulator` | 版本化输入、Coach 案例模拟和工具校验 |
-| `nuromova-knowledge-editor` | 飞书知识维护、候选确认与研发交付 |
+- [知识库总入口](knowledge/README.md)：按类型和专题找到内容。
+- [18 个专题](knowledge/topics/README.md)：运动专项、营养、恢复、心理表现及通用基础。
+- [HYROX 完整问题包](knowledge/topics/hyrox-prior-load/README.md)：从输入到提问、判断、行动的完整样板。
+- [结构与维护约定](knowledge/STRUCTURE.md)、[专家模板](templates/README.md) 和 [贡献说明](CONTRIBUTING.md)。
+- [覆盖与待补项](knowledge/coverage.md)：哪些已有正文，哪些仍缺提问、判断和行动链。
+- [后续 skills 改造交接](docs/skills-handoff.md)：供用户接下来优化专家审阅流程。
 
-## 使用 skills
+## 当前内容
 
-把 `skills/` 下四个目录一起复制到你的 Codex skills 目录（通常为 `~/.codex/skills/`）。工具需要 Node.js 20 或以上：
+原有专业资料已整理为 **137 个完整编号章节和 1 篇完整案例文章**，按主要用途归入概念、判断、行动和案例目录，并由 18 个专题页串联。分类是待专家校正的编辑判断，未将混合研究、经验与建议的历史章节自动判为纯研究证据。
 
-```sh
-cd skills/nuromova-coach-simulator
-npm ci --ignore-scripts
-npm test
-node scripts/coach-kit.mjs --help
+HYROX 问题包另包含 11 个示例单元、1 个问题包入口、9 种构造审阅变式。它是完整流程样板，其余专题需要专家继续补齐问题与行动关系。所有当前单元仍为草稿，未发布正式检索版本。
+
+## 仓库结构
+
+```text
+knowledge/     分类知识、专题入口、来源记录、审阅与目录索引
+templates/     专家填写模板
+docs/          迁移和 skills 接口说明
+tools/         仅操作本地仓库的目录检查工具
+skills/        现有 skills，留待用户后续优化
+archive/       历史导入与停用工具，仅作溯源
 ```
 
-飞书访问需要自己的 `lark-cli` 登录及原文权限；本仓库不包含登录凭据。配置中的飞书 URL 和文档 ID 是来源标识。
+历史资料已移出日常维护目录。归档中的旧来源链接与操作指令只作历史材料；当前工作不连接、读取或同步原文档系统。已有 skills 仍保留旧接口和路由，本轮未改动；不得用其中的旧来源流程覆盖当前 Markdown。
 
-## 更新知识快照
+## 维护与检查
 
-需要 Python 3.9 或以上、可用的 `lark-cli` 以及当前用户对源知识库的读取权限。在仓库根目录执行：
+需要 Python 3.9 或以上，无需文档平台登录或网络：
 
 ```sh
-python3 tools/export_feishu.py --out knowledge-next
+python3 tools/catalog.py --write
+python3 tools/catalog.py --check
 ```
 
-脚本只读取飞书，不修改远端。先检查新目录的 `manifest.json`，确认 `status` 与 `failures`；核对变更后再替换当前 `knowledge/` 并提交。新目录导出避免旧快照中已删除文件残留。
+第一条刷新 [结构目录](knowledge/catalog.json) 和 [覆盖清单](knowledge/coverage.md)，第二条检查元数据、ID、相对链接、迁移来源及生成文件是否一致。检查通过只表示结构一致，不评判专业正确性，不调用模型、不做真实检索，也不发布知识。
 
-## 来源与审阅状态
-
-源入口：[飞书 RAG库知识储备](https://ni4nrbhniif.feishu.cn/wiki/RqDGw7Oo8irVhQkoG5jcUlnSnlb)。本仓库是导出时的版本快照，飞书仍是团队维护的来源。
-
-专业文章、产品规则、案例与管理资料都保留在原目录。此次搬运没有逐条重新审阅知识；清单中的 `unreviewed` 和 `rag_eligible: false` 是保守的导出标记，不覆盖原文已有的确认记录。部署检索前应依据知识单元的来源、适用条件和实际审阅记录筛选。
-
-仓库包含知识资产与协作工具；向量化、检索服务和线上 Coach 的部署由后续工程实现。
+专家直接编辑各知识单元的 Markdown；专题页通过链接复用，不再维护多份相同正文。来源、适用条件、反例与不确定性随单元保留，具体版本确认见 [审阅约定](knowledge/governance/README.md)。

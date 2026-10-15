@@ -7,6 +7,8 @@ description: Nuromova 内部专家维护知识库的入口；首次使用介绍�
 
 先读 [冷启动](references/cold-start.md) 和 [仓库协议](references/repository.md)。首次启动先解释使用方法及知识库结构，再进入案例；恢复会话时只补充变化和未完成事项。
 
+本工作流有两条产出：完善 knowledge/ 的专业知识，打磨 agent/ 的 App Coach 决策逻辑。先了解 [最小运行单元设计](../../agent/README.md)，专家反馈按知识、行为或场景问题分别整理。
+
 ## 四项能力
 
 四项能力分别是四个独立 Skill，加上本入口共五个。专家通常只需调用本入口，也可以直接调用任一功能：

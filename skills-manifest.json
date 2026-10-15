@@ -1,12 +1,12 @@
 {
   "source": "repository-maintained local Markdown skills",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "captured_at": "2026-10-15",
   "files": [
     {
       "path": "skills/nuromova-coach-simulator/SKILL.md",
-      "sha256": "bea7c621c7a04621e6278546d79a7456b8b5c4bdc27d2bbbd43613180968c786",
-      "bytes": 2696
+      "sha256": "f0ed793fc59026adcb1158de4f6702584cd44376320475c64d93116d237b29ac",
+      "bytes": 3344
     },
     {
       "path": "skills/nuromova-coach-simulator/agents/openai.yaml",
@@ -30,8 +30,8 @@
     },
     {
       "path": "skills/nuromova-expert-coach/SKILL.md",
-      "sha256": "e5ef8bc13ebfdf63647487a92412650d4c90fbee518f225531ef4e346aa85352",
-      "bytes": 2679
+      "sha256": "219eb7e3ecd35b3feabfcc077ce8681e82ed8edbba77cb8107c9632f2d5179c8",
+      "bytes": 2912
     },
     {
       "path": "skills/nuromova-expert-coach/agents/openai.yaml",
@@ -40,13 +40,13 @@
     },
     {
       "path": "skills/nuromova-expert-coach/references/architecture.md",
-      "sha256": "9a57166d0b59608e8a32d31e645a35a9a32ef790e372bb74fc0ecd15f0d8bc34",
-      "bytes": 660
+      "sha256": "1ea3d54a96e2147c048eff25bfd4b5fd6c1b771158d944c8eeb479c3e5d058b6",
+      "bytes": 1075
     },
     {
       "path": "skills/nuromova-expert-coach/references/cold-start.md",
-      "sha256": "66921302e0da23d64c09c18ade28129e7b0a5b16e97c88ba1be46e4027e07232",
-      "bytes": 1211
+      "sha256": "a952710dc980801bea7d68d7677155e3c98b4925c2ff691d6db23d1450171def",
+      "bytes": 1277
     },
     {
       "path": "skills/nuromova-expert-coach/references/dialogue-modes.md",
@@ -60,13 +60,13 @@
     },
     {
       "path": "skills/nuromova-expert-coach/references/session-contract.md",
-      "sha256": "4ce3f53a57084ff38d721d0fab4ab003b19a97ce2cb7b43bb9cbaa87ab0f5b71",
-      "bytes": 2285
+      "sha256": "bff02bdc57194f004077a1b0805814343505cac2f8846bfca3cb348db6301304",
+      "bytes": 2650
     },
     {
       "path": "skills/nuromova-expert-interview/SKILL.md",
-      "sha256": "0ce51888aebaa09819b3bb0647eb49852b03c33cf030613a581dfd810506ac71",
-      "bytes": 2248
+      "sha256": "dc0131ad32828f1682d2d3d38450cbed2ba4cbbdcb3179cb6013761d718643d4",
+      "bytes": 2697
     },
     {
       "path": "skills/nuromova-expert-interview/agents/openai.yaml",
@@ -75,8 +75,8 @@
     },
     {
       "path": "skills/nuromova-knowledge-editor/SKILL.md",
-      "sha256": "8a4810c54bc68cc5c4a27f30ef5bfeac3193040ce477e42569caf63b3ad2ecb1",
-      "bytes": 1542
+      "sha256": "0143a3ddfe9f5401b26cbb53a6d9201918c04d17944191eaef27c9f85841709d",
+      "bytes": 2000
     },
     {
       "path": "skills/nuromova-knowledge-editor/agents/openai.yaml",
@@ -100,8 +100,8 @@
     },
     {
       "path": "skills/nuromova-scenario-simulator/SKILL.md",
-      "sha256": "b17bfe85fe0246ef713e6db2a9d470d39a1a69eb3fb6ad021e738ecbe841a6f9",
-      "bytes": 2146
+      "sha256": "fc649908d6e724fc28730c85f6886c58a24c2e615f4f96ca982dd24685c8cc8a",
+      "bytes": 2404
     },
     {
       "path": "skills/nuromova-scenario-simulator/agents/openai.yaml",

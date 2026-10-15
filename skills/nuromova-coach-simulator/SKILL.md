@@ -9,6 +9,12 @@ description: 基于本地知识和结构化场景逐轮模拟 AI Coach 的有效
 
 输入来自 [场景生成](../nuromova-scenario-simulator/SKILL.md) 或专家提供的结构化事实。读取 [对话原则](references/coach-policy.md) 与 [记录约定](references/contract.md)。当前模型可执行交互式演示，不需要安装旧脚本；不声称调用了未配置的产品后端。
 
+## App Agent 最小单元
+
+本技能同时承担知识试用与 Agent 行为设计。每轮遵循仓库 [回合契约](../../agent/turn-contract.md)，用 [回合记录模板](../../agent/templates/turn-record.md) 保存可见输入、知识引用、主动作和状态变化。当前由会话模型执行协议，不宣称已具备产品运行时或自动校验器。
+
+专家纠正后按 [验证设计](../../agent/evaluation.md) 区分知识问题、行为问题、场景问题与角色问题。行为问题形成明确触发条件和预期动作，不能只润色最终话术。知识缺口明确标记，不用模型常识冒充库内依据。
+
 ## 运行每一轮
 
 先按 [对话模式](../nuromova-expert-coach/references/dialogue-modes.md) 识别本轮意图并显示标签。明确专业点评暂停模拟，含糊表达先澄清；专家讨论持续到明确恢复模拟。

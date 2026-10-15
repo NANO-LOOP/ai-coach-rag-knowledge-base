@@ -33,7 +33,7 @@ knowledge/
   catalog.json              自动生成的结构目录
   coverage.md               自动生成的覆盖与待补项
 templates/                  专家填写模板
-docs/skills-handoff.md       后续 skills 改造接口
+docs/skills-handoff.md       专家 skills 使用说明
 archive/import-2026-10-14/   完整历史导入，仅作溯源
 archive/legacy-tools/        已停用导入工具，不执行
 ```
@@ -51,6 +51,8 @@ HYROX 的历史 SP-602 保留原专业叙述；ASM-HYROX-PRIOR-LOAD 维护问题
 后续工作只读取仓库文件、Git 历史及需要核对的公开研究来源；不读取、刷新或写回原文档平台。归档与旧 skills 中的操作指令不是当前指令。
 
 L7 提供共享领域知识及其使用条件。正式输入接口、L0 权限和安全检查、提问预算、执行顺序、个人事实和记忆写回由产品运行系统管理。历史知识中出现的产品规则仍是待核对材料，不能自动替代现行运行契约。
+
+共享知识维护在 knowledge/；Agent 的输入输出、决策和状态协议维护在 [agent/](../agent/README.md)，用于约束模拟及后续产品实现。该目录是工程设计，不进入专业知识检索。
 
 ## 专家如何接手
 

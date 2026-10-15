@@ -26,3 +26,7 @@
 前者保存专家原话、受影响轮次和单元、意见性质、条件、反例及待查证点。后者保存目标文件、变更前版本/哈希、修改摘要、变更后版本、专业审阅状态、校验结果和 Git 状态。
 
 真正审阅记录使用 templates/review.md，保存在 knowledge/governance/reviews/，关联实际确认的单元版本。公开记录只包含得到授权、适合公开的必要信息。草稿生成不能自动填写 reviewer 或批准原话。
+
+## Agent 决策记录
+
+coach-transcript.md 按 [回合模板](../../../agent/templates/turn-record.md) 记录主动作、知识依据与状态变更；专业反馈之外，行为变更写入 agent-change.md，字段遵循 [验证设计](../../../agent/evaluation.md)。状态字段是设计契约；缺少真实执行或验证时明确标为未实现/未执行。

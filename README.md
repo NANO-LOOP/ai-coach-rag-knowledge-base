@@ -13,6 +13,8 @@ Nuromova AI Coach 的共享知识库。**GitHub 仓库及其中的 Markdown 是�
 - [覆盖与待补项](knowledge/coverage.md)：哪些已有正文，哪些仍缺提问、判断和行动链。
 - [专家 skills 使用说明](docs/skills-handoff.md)：一个入口、四项功能及本地 Markdown 工作流。
 
+- [App Coach 最小单元设计](agent/README.md)：回合输入输出、决策规则、状态与验证设计。
+
 ## 当前内容
 
 原有专业资料已整理为 **137 个完整编号章节和 1 篇完整案例文章**，按主要用途归入概念、判断、行动和案例目录，并由 18 个专题页串联。分类是待专家校正的编辑判断，未将混合研究、经验与建议的历史章节自动判为纯研究证据。
@@ -27,6 +29,7 @@ templates/     专家填写模板
 docs/          迁移和 skills 接口说明
 tools/         仅操作本地仓库的目录检查工具
 skills/        专家入口与四个独立功能 Skill
+agent/         App Coach 决策契约与验证设计（设计草案）
 archive/       历史导入与停用工具，仅作溯源
 ```
 

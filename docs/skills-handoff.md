@@ -10,6 +10,10 @@
 | [nuromova-expert-interview](../skills/nuromova-expert-interview/SKILL.md) | 询问和接收专家建议 | 条件、反例、依据和修改意见 |
 | [nuromova-knowledge-editor](../skills/nuromova-knowledge-editor/SKILL.md) | 总结并修改结构与正文 | Markdown 差异、审阅记录、索引 |
 
+## 双重目标
+
+模拟既用于完善专业知识，也用于设计将来 App 的 Coach Agent。参见 [最小单元设计](../agent/README.md)：每轮保留输入、知识依据、主动作和状态更新。专家反馈分别进入知识修订、行为设计或场景调整，并补充可复现的检查场景。当前是 Skill 执行的设计协议，产品运行适配层尚未实现。
+
 ## 开始使用
 
 在这个仓库中让 Agent 读取 `skills/nuromova-expert-coach/SKILL.md` 并按其执行。例如：“按仓库里的专家入口启动，先介绍知识结构，再用 HYROX 前一天加练影响关键课的案例逐轮模拟，我来扮演运动者。”

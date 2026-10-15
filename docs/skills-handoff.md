@@ -8,7 +8,11 @@
 | [nuromova-scenario-simulator](../skills/nuromova-scenario-simulator/SKILL.md) | 构造场景与结构化输入 | 可见事实、未知和变式 |
 | [nuromova-coach-simulator](../skills/nuromova-coach-simulator/SKILL.md) | 逐轮提问、判断和建议 | 实际对话及引用记录 |
 | [nuromova-expert-interview](../skills/nuromova-expert-interview/SKILL.md) | 询问和接收专家建议 | 条件、反例、依据和修改意见 |
-| [nuromova-knowledge-editor](../skills/nuromova-knowledge-editor/SKILL.md) | 总结并修改结构与正文 | Markdown 差异、审阅记录、索引 |
+| [nuromova-knowledge-editor](../skills/nuromova-knowledge-editor/SKILL.md) | 整理输入模型、Agent 架构和知识结构与正文 | Markdown 差异、审阅记录、索引 |
+
+## 文档驱动与专家权限
+
+四个功能是：场景及数据生成、Coach 对话模拟、专家反馈、整理写入。输入生成读取 [输入模型](../agent/input-model.md)；Coach 模拟读取 [Agent 架构](../agent/README.md)；两者按需读取 knowledge/。专家可以修改这三类资产，Skill 负责执行和交接。修改 Skill 本身须先确认意图，再确认具体差异；详见 [维护边界](expert-maintenance.md)。
 
 ## 双重目标
 

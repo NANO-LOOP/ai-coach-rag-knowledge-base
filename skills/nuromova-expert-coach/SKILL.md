@@ -7,7 +7,7 @@ description: Nuromova 内部专家维护知识库的入口；首次使用介绍�
 
 先读 [冷启动](references/cold-start.md) 和 [仓库协议](references/repository.md)。首次启动先解释使用方法及知识库结构，再进入案例；恢复会话时只补充变化和未完成事项。
 
-本工作流有两条产出：完善 knowledge/ 的专业知识，打磨 agent/ 的 App Coach 决策逻辑。先了解 [最小运行单元设计](../../agent/README.md)，专家反馈按知识、行为或场景问题分别整理。
+本工作流有两条产出：完善 knowledge/ 的专业知识，打磨 agent/ 的 App Coach 决策逻辑。先了解 [最小运行单元设计](../../agent/README.md)，专家可修订输入模型、Agent 架构和知识库三类资产；按 [维护边界](../../docs/expert-maintenance.md) 分流，Skill 执行层保持稳定，确需修改时另行确认。
 
 ## 四项能力
 
@@ -18,7 +18,7 @@ description: Nuromova 内部专家维护知识库的入口；首次使用介绍�
 | 给我一个案例／调整模拟输入 | [场景生成](../nuromova-scenario-simulator/SKILL.md) | 标记为构造的结构化输入 |
 | 演一遍 Coach 会怎么问和建议 | [Coach 模拟](../nuromova-coach-simulator/SKILL.md) | 逐轮提问、回答、判断、建议与引用 |
 | 我觉得判断有问题／补充经验 | [专家访谈](../nuromova-expert-interview/SKILL.md) | 意见、条件、反例、待验证点 |
-| 整理进去／重构目录 | [知识编辑](../nuromova-knowledge-editor/SKILL.md) | 本地 Markdown 差异、审阅记录与索引 |
+| 整理意见／修改模型、架构或知识目录 | [知识编辑](../nuromova-knowledge-editor/SKILL.md) | 三类资产的差异、配套检查与审阅记录 |
 
 按专家意图选择下一步，不要求每次走完四项。专家可以随时纠正事实、切换主题、要求展开引用或直接修订。进入某一功能前读其 SKILL.md。
 

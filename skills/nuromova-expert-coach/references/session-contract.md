@@ -8,7 +8,7 @@
 
 ## initial_input.json、scenario.md 与 simulation_meta.json
 
-使用 [L0–L6 输入模型](../../../agent/input-model.md) 的 JSON Schema、阶段配置和缺省模板。initial_input.json 是模拟业务事实源；scenario.md 是专家阅读摘要，不独立维护第二份事实。simulation_meta.json 保存 session_id、scenario_id、scenario_version、synthetic 标记、运行方式、Git HEAD 和引用知识版本/哈希。
+使用 [L0–L6 输入模型](../../../agent/input-model.md) 的 JSON Schema、阶段配置和缺省模板。initial_input.json 是模拟业务事实源；scenario.md 是专家阅读摘要，不独立维护第二份事实。simulation_meta.json 保存 session_id、scenario_id、scenario_version、synthetic 标记、运行方式、Git HEAD、实际读取的输入模型/Agent 规则文档路径与版本/哈希，以及引用知识版本/哈希。文档无显式版本时用内容哈希定位，不编造版本号。
 
 起始可见输入与 athlete-role.md、专家预期分开；只有实际收到的运动者回答才追加事实，纠正保留版本与替代关系。三个阶段都保留完整 L0–L6，按能力与数据可用性填写，不用零或否定替代缺省。
 
@@ -24,6 +24,8 @@
 ## expert-feedback.md 与 change-summary.md
 
 前者保存专家原话、受影响轮次和单元、意见性质、条件、反例及待查证点。后者保存目标文件、变更前版本/哈希、修改摘要、变更后版本、专业审阅状态、校验结果和 Git 状态。
+
+Skill 修改提议单独保存在 skill-change-proposal.md，记录意图确认原话、待确认的具体差异、目标版本/哈希与实际差异确认。普通反馈不能代替这些确认，未确认时不改执行层。
 
 真正审阅记录使用 templates/review.md，保存在 knowledge/governance/reviews/，关联实际确认的单元版本。公开记录只包含得到授权、适合公开的必要信息。草稿生成不能自动填写 reviewer 或批准原话。
 

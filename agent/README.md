@@ -2,6 +2,8 @@
 
 状态：设计草案 v0.1.0。用于约束当前 Skill 模拟，并为 App Agent 实现提供接口与验证依据；不是已实现的产品运行时。
 
+本文件是 Coach 模拟的主入口。专家可维护本架构及其 [回合契约](turn-contract.md)、[对话原则](dialogue-policy.md)、[验证设计](evaluation.md) 和记录模板。Skill 负责读取与执行，不另存一份决策规则；修改边界见 [专家维护说明](../docs/expert-maintenance.md)。
+
 ## 两条建设目标
 
 - 知识建设：完善判断依据、有效问题、适用条件、反例、行动和复评知识，维护在 knowledge/。

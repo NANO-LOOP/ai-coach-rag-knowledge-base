@@ -1,12 +1,12 @@
 {
   "source": "repository-maintained local Markdown skills",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "captured_at": "2026-10-15",
   "files": [
     {
       "path": "skills/nuromova-coach-simulator/SKILL.md",
-      "sha256": "836e78d85d6806510e9f86b8d9ab81e4001b7cd8467231ae692c7d75e765f0f5",
-      "bytes": 3584
+      "sha256": "6586cc1b4628238d17da3cfa3475b397ebdb9a7e013aee5d4ecc9015d0900791",
+      "bytes": 1698
     },
     {
       "path": "skills/nuromova-coach-simulator/agents/openai.yaml",
@@ -15,8 +15,8 @@
     },
     {
       "path": "skills/nuromova-coach-simulator/references/coach-policy.md",
-      "sha256": "e35444b647363aa2c1c32225000efd18999fab8fa34631d6290354fdff7b2ace",
-      "bytes": 863
+      "sha256": "81f3345640244b84f1d60928202fbb8664bf2b0f54f86e9778c3776e706ba428",
+      "bytes": 235
     },
     {
       "path": "skills/nuromova-coach-simulator/references/contract.md",
@@ -30,8 +30,8 @@
     },
     {
       "path": "skills/nuromova-expert-coach/SKILL.md",
-      "sha256": "219eb7e3ecd35b3feabfcc077ce8681e82ed8edbba77cb8107c9632f2d5179c8",
-      "bytes": 2912
+      "sha256": "750e59dd16f11c304f94db43efeec3f5f11ba164f8fa826eda277ac2efe03bf7",
+      "bytes": 3072
     },
     {
       "path": "skills/nuromova-expert-coach/agents/openai.yaml",
@@ -40,13 +40,13 @@
     },
     {
       "path": "skills/nuromova-expert-coach/references/architecture.md",
-      "sha256": "1ea3d54a96e2147c048eff25bfd4b5fd6c1b771158d944c8eeb479c3e5d058b6",
-      "bytes": 1075
+      "sha256": "2b56aa9104b1d326bd8c734dfb213890c76e3ceee06a6d1bde0f51e297278686",
+      "bytes": 1320
     },
     {
       "path": "skills/nuromova-expert-coach/references/cold-start.md",
-      "sha256": "a952710dc980801bea7d68d7677155e3c98b4925c2ff691d6db23d1450171def",
-      "bytes": 1277
+      "sha256": "6e425c7cb1815304dfebdc33028e7ef5d2555cc980e7a2dfa86c813635d81f5a",
+      "bytes": 1325
     },
     {
       "path": "skills/nuromova-expert-coach/references/dialogue-modes.md",
@@ -55,18 +55,18 @@
     },
     {
       "path": "skills/nuromova-expert-coach/references/repository.md",
-      "sha256": "7b6375dfbf476f3d692ba7e091e36dae976f23db48e21f2967528c4cfbf5c871",
-      "bytes": 1643
+      "sha256": "18fcbcbcaad65eea27be035f946a9cc2fd862231d14f4d54a06733b13e8284bc",
+      "bytes": 1896
     },
     {
       "path": "skills/nuromova-expert-coach/references/session-contract.md",
-      "sha256": "594ae1975b403a7546c15921013ee6a184bf69b4c937f3717740b819e09e64cd",
-      "bytes": 2723
+      "sha256": "19c1ea5963b2995ab4a5c41fdd5595b7b118162a88d208d1b8d76b59c01475fe",
+      "bytes": 3097
     },
     {
       "path": "skills/nuromova-expert-interview/SKILL.md",
-      "sha256": "dc0131ad32828f1682d2d3d38450cbed2ba4cbbdcb3179cb6013761d718643d4",
-      "bytes": 2697
+      "sha256": "6112bb107f60cd1947f0cf16f1bc18b0daaf48f6eef78d72004edc3ac760a922",
+      "bytes": 2987
     },
     {
       "path": "skills/nuromova-expert-interview/agents/openai.yaml",
@@ -75,8 +75,8 @@
     },
     {
       "path": "skills/nuromova-knowledge-editor/SKILL.md",
-      "sha256": "0143a3ddfe9f5401b26cbb53a6d9201918c04d17944191eaef27c9f85841709d",
-      "bytes": 2000
+      "sha256": "bade67c12b71a740e2c8431f2f5edeb4a88ff6bf49a0dffdec4997d5607f7978",
+      "bytes": 2603
     },
     {
       "path": "skills/nuromova-knowledge-editor/agents/openai.yaml",
@@ -95,13 +95,13 @@
     },
     {
       "path": "skills/nuromova-knowledge-editor/references/repository.md",
-      "sha256": "54b33d8f19905405c0f0a3718a5ec4d386c93e2527b29ccd185465ea17323141",
-      "bytes": 1624
+      "sha256": "8b7556ae9c8fa54c8164b06027cad30db6208d595a36bf3a888cccd8d07617b6",
+      "bytes": 1838
     },
     {
       "path": "skills/nuromova-scenario-simulator/SKILL.md",
-      "sha256": "64d41a91600cd95dee1fd2e11467b1151a7b56ccc86db7be27ac022b5ea8d260",
-      "bytes": 2927
+      "sha256": "97ed96e6c5e9d89aae5dbbcdb0616272e99759efb1ac713007fa221d8252f82a",
+      "bytes": 1235
     },
     {
       "path": "skills/nuromova-scenario-simulator/agents/openai.yaml",

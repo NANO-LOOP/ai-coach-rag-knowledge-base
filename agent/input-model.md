@@ -4,6 +4,8 @@
 
 用户决定：保留 RAG 完整分层，补齐 T0 数据对象，按 T0/T1/T2 控制可用范围。阶段依据为用户指定开发文档 V0.4、2026-10-15 实读 revision 1460 的 §3.3、§6.2、§7、§9、§10.2–10.3。来源快照元数据见 [source-baseline.json](contracts/source-baseline.json)。本地文件为维护源，来源记录不恢复在线文档依赖。
 
+专家可以修改本模型及配套结构；修改范围与同步要求见 [专家维护边界](../docs/expert-maintenance.md)。场景构造规则见 [生成约定](scenario-generation.md)，场景 Skill 只读取和执行这些规则。
+
 ## 文件入口
 
 - [统一 JSON Schema](contracts/coach-input.schema.json)：字段、数据类型和阶段约束。

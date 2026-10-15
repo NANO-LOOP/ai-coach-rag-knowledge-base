@@ -1,13 +1,13 @@
 ---
 name: nuromova-knowledge-editor
-description: 维护 GitHub 项目的本地 Markdown 知识库结构和正文：将专家意见落实为草稿，管理稳定 ID、来源、审阅与索引，并按授权提交 Git 变更。
+description: 将专家意见落实到输入模型、AI Coach Agent 架构和知识库结构与正文，同步配套文件、版本和检查；Skill 执行规则修改须单独确认。
 ---
 
 启动时先读 [仓库协议](../nuromova-expert-coach/references/repository.md)，定位并实际读取当前项目 Markdown。
 
-# 总结并写入知识库
+# 总结并维护三类资产
 
-读取 [本地编辑流程](references/repository.md) 和 [知识契约](references/knowledge-contract.md)。本技能处理正文、拆分合并、分类、专题索引和模板改进。
+读取 [本地编辑流程](references/repository.md) 和 [知识契约](references/knowledge-contract.md)。按 [专家维护边界](../../docs/expert-maintenance.md) 定位三类目标：输入模型及配套合同、Agent 架构及行为文档、知识库结构与正文。单个场景事实只改该场景版本。明确授权的文档修改直接完成草稿；Skill 执行层修改先完成意图与具体差异两阶段确认。
 
 根据已读取的原文和专家意见形成具体差异，保留适用条件、反例、来源与未知。用户已经要求整理或维护时可直接写入草稿，不反复等待同一授权。没有专家确认仍可保存和提交 draft；不得编造确认记录或把保存等同于发布。
 
@@ -15,6 +15,11 @@ description: 维护 GitHub 项目的本地 Markdown 知识库结构和正文：�
 
 写入后运行仓库目录检查、查看 Git diff、重新读取目标文件，报告实际改动及仍待专家审阅部分。Git 提交、推送和 PR 根据当前会话授权执行；推送失败时保留本地成果，明确本地与远端状态，不自行切换账号、仓库或强制覆盖。
 
-## 双轨整理
+## 同步与验证
 
-按 [Agent 设计](../../agent/README.md) 将专业内容写入 knowledge/，将输入、决策、状态和工具边界写入 agent/ 及相关 Skill。行为修改同步 [验证设计](../../agent/evaluation.md) 中的复现与反例要求，记录设计变更和未执行验证。修改 Skill 后核对引用并更新 skills-manifest.json。Agent 文档不加入 L7 知识目录，不把规则修改标成专业确认或已实现代码。
+- 输入结构修改：同步 agent/input-model.md、contracts 的 Schema、阶段配置、缺省、示例与必要测试，避免只改说明或只让校验放行。
+- Agent 规则修改：同步 agent/README.md 所指向的契约、原则和验证场景，记录实际执行结果；不能把修订设计当成模型已验证。
+- 知识修改：按治理规则维护单元 ID、版本、引用、目录与审阅状态。
+- Skill 变更：先在会话目录保存提议；取得对具体差异的确认后才修改，检查格式、引用和 skills-manifest.json。不能把编辑 Skill 本身作为普通知识整理的一部分。
+
+写入后重读当前版本并交还模拟，保留原输入和输出。恢复模拟遵循原有模式约定。Agent 文档不进入 L7 专业知识检索。
